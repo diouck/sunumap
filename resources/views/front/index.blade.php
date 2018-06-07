@@ -9,12 +9,12 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="page_title">
-                            <h2></h2>
+                            <h2>Services</h2>
                         </div>
                         <nav id="breadcrumbs">
                             <ul>
-                                <li><a href="{{ route('home') }}">Home</a>/</li>
-                                <li>Pages</li>
+                                <li><a href="{{ route('home') }}">Accueil</a>/</li>
+                                <li>Services</li>
                             </ul>
                         </nav>
                     </div>

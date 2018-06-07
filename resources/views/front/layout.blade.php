@@ -105,7 +105,7 @@
 					<a href="{{ route('home') }}">@lang('Home')</a>
 				</li>
 				<li >
-					<a href="#">@lang('Categories')</a>
+					<a href="#">@lang('Services')</a>
 					<ul class="dropdown-menu">
 						@foreach ($categories as $category)
 							<li><a href="{{ route('category', [$category->slug ]) }}">{{ $category->title }}</a></li>
@@ -341,6 +341,11 @@
     <script type="text/javascript" src="{{ URL::asset('js/jquery-hoverdirection.min.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('js/jquery.matchHeight-min.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('js/jquery-scrolltofixed-min.js') }}"></script>
+
+   <!-- Contact---->
+    <script type="text/javascript" src="{{ URL::asset('js/jquery.validate.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/view.contact.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/jquery.gmap.js') }}"></script>
 
 
    <script src="{{ asset('js/plugins.js') }}"></script>

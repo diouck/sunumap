@@ -2,32 +2,48 @@
 
 @section('main')
 
-   <!-- content
-   ================================================== -->
-   <section id="content-wrap" class="site-page">
-   	<div class="row">
-   		<div class="col-twelve">
 
-   			<section>  
+<!--start wrapper-->
+<section class="wrapper">
+    <section class="page_head">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="page_title">
+                        <h2>Nous contacter</h2>
+                    </div>
+                    <nav id="breadcrumbs">
+                        <ul>
+                            <li><a href="{{ route('home') }}">Accueil</a>/</li>
+                            <li>Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="primary-content">
+        <section class="contact_2">
+            <div class="maps">
+                <div id="page_maps"></div>
+            </div>
+            <div class="container">
+                <div class="row sub_content">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="dividerHeading">
+                            <h4><span>Get in Touch</span></h4>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti ducimus fuga quidem quisquam ut!</p>
 
-						<h1 class="entry-title add-bottom">@lang('Get In Touch With Us')</h1>
+                        <div class="alert alert-success hidden alert-dismissable" id="contactSuccess">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Success!</strong> Your message has been sent to us.
+                        </div>
 
-						<p class="lead">@lang('Lorem ipsum Deserunt est dolore Ut Excepteur nulla occaecat magna occaecat Excepteur nisi esse veniam dolor consectetur minim qui nisi esse deserunt commodo ea enim ullamco non voluptate consectetur minim aliquip Ut incididunt amet ut cupidatat.')</p>
-
-						<p>@lang('Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.')</p>
-
-						<div class="row">
-							<div class="col-six tab-full">
-								<h4>@lang('Where to Find Us')</h4>
-					  			<p>@lang('1600 Amphitheatre Parkway<br>Mountain View, CA<br>94043 US')</p>
-							</div>
-							<div class="col-six tab-full">
-								<h4>@lang('Contact Info')</h4>
-					  			<p>@lang('someone@abstractwebsite.com<br>info@abstractwebsite.com<br>Phone: (+63) 555 1212')</p>
-							</div>
-						</div>
+                        <div class="alert alert-error hidden" id="contactError">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <strong>Error!</strong> There was an error sending your message.
+                        </div>
 
                         @if (session('ok'))
                             @component('front.components.alert')
@@ -37,34 +53,101 @@
                                 {!! session('ok') !!}
                             @endcomponent
                         @endif
-
-						<form method="post" action="{{ route('contacts.store') }}">
-                            {{ csrf_field() }}
+                    <form method="post" action="{{ route('contacts.store') }}">
+                      {{ csrf_field() }}
                             @if ($errors->has('name'))
                                 @component('front.components.error')
                                     {{ $errors->first('name') }}
                                 @endcomponent
                             @endif 
-                            <input id="name" placeholder="@lang('Your name')" type="text" class="full-width"  name="name" value="{{ old('name') }}" required autofocus>
-                            @if ($errors->has('email'))
-                                @component('front.components.error')
-                                    {{ $errors->first('email') }}
-                                @endcomponent
-                            @endif 
-                            <input id="email" placeholder="@lang('Your email')" type="email" class="full-width"  name="email" value="{{ old('email') }}" required>
-                            @if ($errors->has('message'))
-                                @component('front.components.error')
-                                    {{ $errors->first('message') }}
-                                @endcomponent
-                            @endif 
-                            <textarea name="message" id="message" class="full-width" placeholder="@lang('Your message')" ></textarea>
-                            <button type="submit" class="submit button-primary full-width-on-mobile">Submit</button>
-  				        </form> <!-- end form -->
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-lg-6 ">
+                                    <input type="text" id="name" name="name" class="form-control" maxlength="100" required autofocus value="{{ old('name') }}" placeholder="@lang('Your name')" >
+                                </div> 
+                                @if ($errors->has('email'))
+                                    @component('front.components.error')
+                                        {{ $errors->first('email') }}
+                                    @endcomponent
+                                @endif 
+
+
+                                <div class="col-lg-6 ">
+                                    <input type="email" id="email" name="email" class="form-control" maxlength="100"  value="{{ old('email') }}" placeholder="@lang('Your email')" required>
+                                </div> 
+                                @if ($errors->has('message'))
+                                    @component('front.components.error')
+                                        {{ $errors->first('message') }}
+                                    @endcomponent
+                                @endif 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input type="text" id="subject" name="subject" class="form-control" maxlength="100" data-msg-required="Please enter the subject." value="" placeholder="Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <textarea id="message" class="form-control" name="message" rows="10" cols="50"  maxlength="5000" placeholder="@lang('Your message')"></textarea>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" data-loading-text="Loading..." class="btn btn-default btn-lg" "placeholder="@lang('Your message')" >
+                            </div>
+                        </div>
+                    </form>
                     </div>
-			</section>
-   		   		
-		</div> <!-- end col-twelve -->
-   	</div> <!-- end row -->
-   </section> <!-- end content --> 
+
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="sidebar">
+                            <div class="widget_info">
+                                <div class="dividerHeading">
+                                    <h4><span>Contact Info</span></h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti ducimus fuga quidem quisquam ut!</p>
+                                <ul class="widget_info_contact">
+                                    <li><i class="fa fa-map-marker"></i><strong>Address</strong> <p>: #2021 Lorem Ipsum<br>Delhi</p></li>
+                                    <li><i class="fa fa-envelope"></i><strong>Email</strong> <p>: <a href="#">mail@example.com</a></p> <p>: <a href="#">mail@example.com</a></p></li>
+                                    <li><i class="fa fa-phone"></i><strong>Our Phone</strong> <p>: (+91) 9000-12345</p><p>: (+91) 8000-54321</p></li>
+                                </ul>
+                            </div>
+
+                            <div class="widget_social">
+                                <ul class="widget_social">
+                                    <li><a class="fb" href="#." data-placement="bottom" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="twtr" href="#." data-placement="bottom" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="gmail" href="#." data-placement="bottom" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a class="dribbble" href="#." data-placement="bottom" data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a class="skype" href="#." data-placement="bottom" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a></li>
+                                    <li><a class="pinterest" href="#." data-placement="bottom" data-toggle="tooltip" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a class="instagram" href="#." data-placement="bottom" data-toggle="tooltip" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a class="youtube" href="#." data-placement="bottom" data-toggle="tooltip" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a class="linkedin" href="#." data-placement="bottom" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a class="flickrs" href="#." data-placement="bottom" data-toggle="tooltip" title="Flickr"><i class="fa fa-flickr"></i></a></li>
+                                    <li><a class="rss" href="#." data-placement="bottom" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+<!--end wrapper-->
+
+
+
+
+ 
+  
       
 @endsection
