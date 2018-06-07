@@ -1,8 +1,5 @@
   
-                                <div class="post_date">
-                                    <span class="day">28</span>
-                                    <span class="month">Nov</span>
-                                </div>
+                                
                                 <div class="post_content">
                                     <div class="post_meta">
                                         <h2>
@@ -11,15 +8,12 @@
                                         <div class="metaInfo">
                                             <span><i class="fa fa-calendar"></i> <a href="#">{{ ucfirst (utf8_encode ($post->created_at->formatLocalized('%A %d %B %Y'))) }}</a> </span>
                                             <span><i class="fa fa-user"></i> By <a href="#">{{$post->user->name}}</a> </span>
-                                             <span><i class="fa fa-star"></i></span>
                                              @foreach ($post->categories as $category)
-                                                <a href="{{ route('category', [$category->slug]) }}">{{ $category->title }}</a>
-                                              @endforeach
-                                            
-                                            @if ($post->tags->count()) 
-                                            <span><i class="fa fa-tag"></i></span>
+                                                <span><i class="fa fa-star"><a href="{{ route('category', [$category->slug]) }}">{{ $category->title }}</i></a></span>
+                                              @endforeach 
+                                            @if ($post->tags->count())  
                                                 @foreach($post->tags as $tag)
-                                                    <a href="{{ route('posts.tag', [$tag->id]) }}">{{ $tag->tag }}</a>
+                                                  <span><i class="fa fa-tag"></i>  <a href="{{ route('posts.tag', [$tag->id]) }}">{{ $tag->tag }}</a></span>
                                                 @endforeach 
                                              @endif
  
