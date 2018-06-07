@@ -115,9 +115,7 @@
                 <li {{ currentRoute('portfolio') }}>
                     <a href=" /portfolio  ">@lang('Portfolio')</a>
                 </li>
-                <li {{ currentRoute('contacts.create') }}>
-                        <a href="{{ route('contacts.create') }}">@lang('Contact')</a>
-                    </li>
+                 
 				@guest
 					<li {{ currentRoute('contacts.create') }}>
 						<a href="{{ route('contacts.create') }}">@lang('Contact')</a>
