@@ -20,9 +20,20 @@
                                             
                                         </div>
                                     </div>
-                                      <div class="entry-thumb">
+                                     <!-- <div class="entry-thumb">
                                             <a href="{{ url('posts/' . $post->slug) }}" class="thumb-link"><img src="{{ $post->image }}"></a>
-                                        </div>
+                                        </div> -->
+
+                                        <figure class="post_img">
+                                          <!-- Post Image Slider -->
+                                          <div id="slider" class="swipe">
+                                            <ul class="swipe-wrap">
+                                               <a href="{{ url('posts/' . $post->slug) }}" ><img src="{{ $post->image }}"></a> 
+                                             
+                                            </ul>
+                                            
+                                          </div>
+                                        </figure>
                                         <br><br>
                                     
                                      

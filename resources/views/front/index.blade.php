@@ -44,9 +44,7 @@
                     {{ $errors->first('search') }}
                 @endcomponent
             @endif  
-           
-
-                <div class="grid-sizer"></div>
+            
 
                 @foreach($posts as $post)
 

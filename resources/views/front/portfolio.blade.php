@@ -256,7 +256,7 @@
 
 @endsection
 
- @section('script')      
+ @section('scripts')      
    <script>
     (function ($) {
         var $container = $('.masonry_wrapper'),
@@ -311,4 +311,8 @@
         $(window).smartresize(isotope);
     }(jQuery));
 </script>
-@end('script') 
+<!-- Start Style Switcher -->
+<div class="switcher"></div>
+<!-- End Style Switcher -->
+
+@endsection

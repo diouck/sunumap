@@ -16,9 +16,13 @@
                                              @endif 
                                         </div>
                                     </div>
-                                      <div class="entry-thumb">
+                                       
+                                    <div class="post_img">
                                             <a href="{{ url('posts/' . $post->slug) }}" class="thumb-link"><img src="{{ $post->image }}"></a>
                                         </div>
+
+                                         
+
                                         <br><br>
                                      
                                     <blockquote class="default">
