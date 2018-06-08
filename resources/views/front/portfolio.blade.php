@@ -10,13 +10,13 @@
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <nav id="breadcrumbs">
                         <ul>
-                            <li><a href="index.html">Home</a>/</li>
-                            <li>Masonry</li>
+                            <li><a href="{{ route('home') }}">Accueil</a>/</li>
+                                <li>Référenes</li>
                         </ul>
                     </nav>
 
                     <div class="page_title">
-                        <h2>Masonry 4</h2>
+                        <h2>Référenes</h2>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                         <li data-filter=".branding"><a href="#">Branding</a></li>
                     </ul>
                     <!--end portfolio filter -->
-
+ 
                     <!--begin portfolio_masonry -->
                     <div class="mixed-container masonry_wrapper">
 
