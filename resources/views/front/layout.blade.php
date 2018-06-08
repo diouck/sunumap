@@ -7,7 +7,7 @@
 	<!--- basic page needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>{{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('Title')) }}</title>
+	<title>{{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('SUNUMAP')) }}</title>
 	<meta name="description" content="{{ isset($post) && $post->meta_description ? $post->meta_description : __('description') }}">
 	<meta name="author" content="@lang(lcfirst ('Author'))">
 	@if(isset($post) && $post->meta_keywords)
@@ -66,8 +66,9 @@
                     </div>
                     <div class="col-sm-4 top-info">
                         <ul>
-                            <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="http://twitter.com/share?text=SUNUMAP &url=https://sunumap.fr" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://www.facebook.com/share.php?u=http://sunumap.fr" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://plus.google.com/share?url=www.sunumap.fr" class="my-google"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
                             <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
@@ -301,11 +302,12 @@
             </div>
 
             <div class="col-sm-6 ">
-                <div class="footer_social">
+                <div class="footer_social"> 
+
                     <ul class="footbot_social">
-                        <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="dribbble" href="#." data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="fb" href="http://www.facebook.com/share.php?u=http://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twtr" href="http://twitter.com/share?text=SUNUMAP &url=https://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="google" href="https://plus.google.com/share?url=www.sunumap.fr" data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-google"></i></a></li>
                         <li><a class="skype" href="#." data-placement="top" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a></li>
                         <li><a class="rss" href="#." data-placement="top" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>
                     </ul>
