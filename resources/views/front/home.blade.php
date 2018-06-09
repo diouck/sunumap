@@ -114,127 +114,48 @@
         <section>
             <div class="container">
                 <div class="row sub_content">
-                    <div class="col-md-4 wow fadeInLeft">
+ 
+                    <div class="col-md-12 col-lg-12">
                         <div class="dividerHeading">
-                            <h4><span>More About Us</span></h4>
-                        </div>
-                        <div class="widget widget_tab">
-                            <ul  class="nav nav-tabs">
-                                <li class="active"><a href="#Popular" data-toggle="tab">Popular</a></li>
-                                <li class=""><a href="#Recent" data-toggle="tab">Recent</a></li>
-                                <li class="last-tab"><a href="#Recent-Comment" data-toggle="tab"><i class="fa fa-comments-o"></i></a></li>
-                            </ul>
-
-                            <div  class="tab-content clearfix">
-                                <div class="tab-pane fade active in" id="Popular">
-                                    <p>Fusce lacinia tempor malesuada. Ut lacus sapien, placerat a ornare nec, elementum sit amet felis. Maecenas pretium lorem hendrerit eros sagittis fermentum. Donec in ut odio libero, at vulputate urna. </p>
-                                    <ul class="list_style circle">
-                                        <li><a href="#"> Donec convallis, metus nec tempus aliquet</a></li>
-                                        <li><a href="#"> Aenean commodo ligula eget dolor</a></li>
-                                        <li><a href="#"> Cum sociis natoque penatibus mag dis parturient</a></li>
-                                    </ul>
-                                </div>
-                                <div class="tab-pane fade" id="Recent">
-                                    <p>Fusce lacinia tempor malesuada. Ut lacus sapien, placerat a ornare nec, elementum sit amet felis. Maecenas pretium lorem hendrerit eros sagittis fermentum. Donec in ut odio libero, at vulputate urna. </p>
-                                    <ul class="list_style">
-                                        <li><a href="#"> Donec convallis, metus nec tempus aliquet</a></li>
-                                        <li><a href="#"> Aenean commodo ligula eget dolor</a></li>
-                                        <li><a href="#"> Cum sociis natoque penatibus mag dis parturient</a></li>
-                                    </ul>
-                                </div>
-                                <div class="tab-pane fade" id="Recent-Comment">
-                                    <p>Fusce lacinia tempor malesuada. Ut lacus sapien, placerat a ornare nec, elementum sit amet felis. Maecenas pretium lorem hendrerit eros sagittis fermentum. Donec in ut odio libero, at vulputate urna. </p>
-                                    <ul class="list_style square">
-                                        <li><a href="#"> Donec convallis, metus nec tempus aliquet</a></li>
-                                        <li><a href="#"> Aenean commodo ligula eget dolor</a></li>
-                                        <li><a href="#"> Cum sociis natoque penatibus mag dis parturient</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <h4><span>NOTRE EXPERTISE: </span></h4>
+                            <p>Par un savoir-faire éprouvé et du pragmatisme, nos interventions de conseil sont destinées à apporter une valeur ajoutée pertinente et concrète, en amont ou en aval des projets de nos clients. Nous intervenons également sur des missions stratégiques à haute valeur ajoutée (PRA, PCA, Audit, Sécurité, Migration, Cloud, ITIL…).</p>
                         </div>
                     </div>
-                    <div class="col-md-4 wow fadeInUp">
-                        <div class="dividerHeading">
-                            <h4><span>Why Choose Us</span></h4>
-                        </div>
-                        <div id="accordion" class="panel-group accordion"><!-- Accordians -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                            Full Responsive Theme
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="panel-collapse collapse in" id="collapseOne">
-                                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
-                                </div>
+                    <div class="col-sm-4">
+                        <div class="serviceBox_3">
+                            <div class="service-image">
+                                <img src="images/services/sunumap-production-données.png"/>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                            Touchable Slider
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="panel-collapse collapse" id="collapseTwo">
-                                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
-                                            Vestibulum turpis lacus
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTen" class="panel-collapse collapse">
-                                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
-                                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
-                                            How to Copy and paste ?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseEleven" class="panel-collapse collapse">
-                                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
-                                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
-                                </div>
-                            </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                            Retina Ready
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="panel-collapse collapse" id="collapseThree">
-                                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
-                                </div>
+                            <div class="service-content">
+                                <h3>PRODUCTION DE DONNÉES GÉOGRAPHIQUES</h3>
                             </div>
                         </div>
+                        <div class="panel-body">A partir d’outils mobiles (SIG Nomades et GPS) ; et de l’hybridation de données image (aérienne, pléiade, Copernicus…), nous produisons des séries de données , fiables, à jour et riches  qui décrivent vos territoires de l’échelle régionale, à la grande échelle. Cœur de métier historique,  cette expertise unique est reconnue au plan national, et par de nombreuses régions.</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="serviceBox_3">
+                            <div class="service-content bg1">
+                                <h3>ANALYSE SPATIALE</h3>
+                            </div>
+                            <div class="service-image">
+                                <img src="images/services/isochrones-multi-modales-nantes-diouck.png"/>
+                            </div>
+                        </div>  
+                       <div class="panel-body">Nous vous proposons des compétences pointues sur les outils d’analyse spatiales, complété d’une expertise métier ciblée, pour établir des portraits de territoire. Les supports cartographiques sont claires, accessibles, et ce à toutes les échelles. Les indicateurs établis sont robustes…et reproductibles !.</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="serviceBox_3">
+                            <div class="service-image">
+                                <img src="images/services/communication.png"/>
+                            </div>
+                            <div class="service-content bg2">
+                                <h3>DIFFUSION ET COMMUNICATION</h3>
+                            </div>
+                        </div>
+                        <div class="panel-body">La diffusion de données peut être effectuée suivant une grande variété de supports : cartes papier, services de carte web, formats SIG, CD-ROM, serveurs de données.En quelques clics, vous pouvez accèdent à une source d’information précieuse et complète : points d’intérêts (institutions, commerces, loisirs, patrimoine historique et culturel…), températures, risques majeurs (inondations, incendies), information en 2D et en 3D, reliefs, photos aériennes.</div>
                     </div>
 
-                    <div class="col-md-4 wow fadeInRight">
-                        <div class="dividerHeading">
-                            <h4><span>Vimeo Video</span></h4>
-                        </div>
-                        <div class="embed-responsive embed-responsive-4by3">
-                            <iframe src="https://player.vimeo.com/video/80101893?title=0&amp;byline=0&amp;portrait=0" width="800" height="450" frameborder="0"></iframe>
-                        </div>
-                    </div>
+                     
                 </div>
             </div>
         </section>
@@ -244,14 +165,10 @@
             <div class="container">
                 <div class="row super_sub_content">
                     <div class="col-lg-6 wow fadeInLeft">
-                        <div class="text-center">
-                            <img src="images/mobile-1.png" alt=""/>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-6 fadeInRight">
-                        <h4>Responsive Designs</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cum dolore fugit impedit nisi, quasi saepe temporibus velit! Debitis, nihil velit? A accusantium adipisci aliquam amet aperiam aut consequuntur dolore ducimus eaque eius est eveniet fugiat maxime molestias natus necessitatibus quae sapiente suscipit tenetur veniam vero, voluptate voluptatum! At, quia!</p>
+                        <div class="text-center">
+                            <img src="images/services/webmapping.png" alt="" width="99%" />
+                        </div>
                         <hr>
                             <i class="fa fa-apple"></i>
                             <i class="fa fa-windows"></i>
@@ -260,52 +177,29 @@
                             <i class="fa fa-paperclip"></i>
                             <i class="fa fa-skype"></i>
                         <hr>
-                        <a href="" class="btn btn-default btn-md">Read more</a>&nbsp;
-                        <a href="" class="btn btn-default btn-md">Purchase Now</a>
+                    </div>
+
+                    <div class="col-lg-6 fadeInRight">
+                        <h4>Développement d'applications cartographiques Open Source et Responsive Designs</h4>
+                        <p>Les logiciels ne répondent pas à l’ensemble de vos attentes ?
+Vous avez besoin d’une application sur mesure pour piloter votre activité et optimiser vos performances ?
+Vous souhaitez une application cartographique intégrée à votre système d’information ?</p>
+<p>
+Confiez la réalisation de votre projet à des experts de la cartographie : l’entreprise BESCI sait mettre au service de votre projet une équipe de spécialistes en géo-décisionnel : développeurs, consultants, géographes, formateurs.</p>
+                         
+                        <a href="" class="btn btn-default btn-md">En savoir plus</a>&nbsp; 
                     </div>
                 </div>
             </div>
         </section>
-
-
-        <div class="grey_bg">
-            <div class="container">
-                <div class="row sub_content">
-                    <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-                        <span class="circular-chart-big" data-percent="94">
-                            <span class="percent"></span>
-                        </span>
-                        <h5 class="circular-title">WebDesign</h5>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-                        <span class="circular-chart-big" data-percent="87">
-                            <span class="percent"></span>
-                        </span>
-                        <h5 class="circular-title">Graphic Design</h5>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-                        <span class="circular-chart-big" data-percent="77">
-                            <span class="percent"></span>
-                        </span>
-                        <h5 class="circular-title">Mobile Applications</h5>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 text-center">
-                        <span class="circular-chart-big" data-percent="82">
-                            <span class="percent"></span>
-                        </span>
-                        <h5 class="circular-title">Search Engine Optimization</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+ 
 
         <section class="clients">
             <div class="container">
                 <div class="row sub_content">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="dividerHeading">
-                            <h4><span>Our Clients</span></h4>
+                            <h4><span>Nos Clients</span></h4>
                         </div>
                         
                         <div class="our_clients">
@@ -327,14 +221,14 @@
                     <div class="col-sm-9 col-md-9 col-lg-9">
                         <div class="promo_content">
                             <h3>Vous avez un projet?.</h3>
-                            <p>Lorem ipsum dolor sit amet, cons adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                            <p>Confiez la réalisation de votre projet à des experts de la cartographie . </p>
                         </div>
                     </div>
                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="pb_action">
-                            <a class="btn btn-lg btn-default" href="#fakelink">
-                                <i class="fa fa-shopping-cart"></i>
-                                Demander un devis
+                            <a class="btn btn-lg btn-default" href="/contacts/create">
+                                <i class="fa fa-envelope"></i>
+                                Contactez-nous
                             </a>
                         </div>
                     </div>

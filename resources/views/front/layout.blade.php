@@ -86,7 +86,16 @@
 
       gtag('config', 'UA-45805660-2');
     </script>
- 
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120630148-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-120630148-1');
+    </script>
+
 	  <meta name="author" content="@lang(lcfirst ('Author'))">
 	       @if(isset($post) && $post->meta_keywords)
 		<meta name="keywords" content="{{ $post->meta_keywords }}">
@@ -146,7 +155,7 @@
                         <ul>
                             <li><a href="http://twitter.com/share?text=SUNUMAP &url=https://sunumap.fr" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://www.facebook.com/share.php?u=http://sunumap.fr" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://plus.google.com/share?url=www.sunumap.fr" class="my-google"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://plus.google.com/share?url=  link " class="my-google"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
                             <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
@@ -437,6 +446,7 @@
         <script>
             // WOW Animation
             new WOW().init();
+             var link = location.protocol + '//' + location.host + location.pathname;
         </script>
 
    <script>
