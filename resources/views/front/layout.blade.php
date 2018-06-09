@@ -192,6 +192,9 @@
 				<li {{ currentRoute('home') }}>
 					<a href="{{ route('home') }}">@lang('Home')</a>
 				</li>
+                <li {{ currentRoute('about') }}>
+                    <a href="{{ route('about') }}">@lang('A propos de nous')</a>
+                </li>
 				<li >
 					<a href="#">@lang('Services')</a>
 					<ul class="dropdown-menu">

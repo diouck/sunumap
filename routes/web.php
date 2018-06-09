@@ -21,6 +21,8 @@
 Route::name('home')->get('/', 'Front\PostController@home');
 //Portfolio
 Route::name('portfolio')->get('/portfolio', 'Front\PostController@portfolio');
+//about
+Route::name('about')->get('/about', 'Front\PostController@about');
 // Contact
 Route::resource('contacts', 'Front\ContactController', ['only' => ['create', 'store']]);
 

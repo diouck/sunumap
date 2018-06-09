@@ -66,6 +66,12 @@ class PostController extends Controller
         return view('front.portfolio', compact('posts','categories'));
     }
 
+        public function  about()
+    {
+        $posts = $this->postRepository->getActiveOrderByDate($this->nbrPages); 
+
+        return view('front.about', compact('posts','categories'));
+    }
     /**
      * Display a listing of the posts for the specified category.
      *
