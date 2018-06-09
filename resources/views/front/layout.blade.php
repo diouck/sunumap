@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>SunuMap | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }} | Entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, </title>
+        <title>SunuMap | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-32x32.png">
