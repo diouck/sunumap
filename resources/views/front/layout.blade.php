@@ -1,35 +1,91 @@
-<!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="{{ config('app.locale') }}"> <!--<![endif]-->
-<head>
 
-	  <!--meta content and open graph tags for social sharing see _includes/metal.html-->
-      <title>SUNUMAP | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}</title>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="twitter:card" content="SUNUMAP | content ">
-      <meta name="twitter:site" content="@sunumap">
-      <meta name="twitter:creator" content="@sunumap">
-      <meta name="twitter:title" content="SUNUMAP | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }} ">
-      <meta name="twitter:description" content="SUNUMAP: {{ isset($post) && $post->meta_description ? $post->meta_description : __('description') }}">
-      <meta name="twitter:domain" content="https://www.sunumap.fr" />
-      <meta name="twitter:image" content="http://www.sunumap.fr/images/logo.png" />
-      <!--Open Graph meta data-->
-      <meta property="og:title" content="SUNUMAP | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}" />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="SUNUMAP | content" />
-      <meta property="og:image" content="http://www.auran.org/sites/all/themes/auran/assets/images/logo.svg" />
-      <meta property="og:image:width" content="32" />
-      <meta property="og:image:height" content="32" />
-      <meta property="og:image" content="http://www.sunumap.fr/1.jpg" />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="1200" />
-      <meta property="og:description" content="SUNUMAP |  {{ isset($post) && $post->meta_description ? $post->meta_description : __('description') }}" />
-      <meta property="og:url" content="https://www.sunumap.fr" />
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" class="no-js" lang="fr">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>SunuMap | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }} | Entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/manifest/manifest.json">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#e2001a">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="SunuMap">
+    <meta name="application-name" content="SunuMap">
+    <meta name="msapplication-config" content="/manifest/browserconfig.xml">
+
+    <link rel="dns-prefetch" href="//logs4.xiti.com/">
+        <link rel="dns-prefetch" href="//www.googletagmanager.com/">
+        <link rel="dns-prefetch" href="//www.google-analytics.com/">
+        <link rel="dns-prefetch" href="//sunumap.fr/">
+        <link rel="dns-prefetch" href="//www.sunumap.fr/category/sig-teledetection/">
+        <link rel="dns-prefetch" href="//www.sunumap.fr/category/conseils-communication/">
+        <link rel="dns-prefetch" href="//www.sunumap.fr/category/formation/">
+        <link rel="dns-prefetch" href="//www.sunumap.fr/category/applications-en-ligne/">
+        <link rel="dns-prefetch" href="//www.sunumap.fr/category/logiciels/">
+        <link rel="dns-prefetch" href="//s.ouest-france.fr/">
+        <link rel="dns-prefetch" href="//www.googletagservices.com/">
+        <link rel="dns-prefetch" href="//partner.googleadservices.com/">
+        <link rel="dns-prefetch" href="//ajax.googleapis.com/">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com/">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com/">   
+
+<!-- Description meta -->
+    <meta name="description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+<!-- Social meta -->
+    <!-- Twitter -->
+    <meta name="twitter:app:country" content="FR" />
+    <meta name="twitter:app:id:googleplay" content="fr.sunumap" />
+    <meta name="twitter:app:id:ipad" content="493304166" />
+    <meta name="twitter:app:id:iphone" content="493304166" />
+    <meta name="twitter:app:name:googleplay" content="SunuMap" />
+    <meta name="twitter:app:name:ipad" content="SunuMap" />
+    <meta name="twitter:app:name:iphone" content="SunuMap" /> 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@geocarta" />
+    <meta name="twitter:domain" content="https://www.sunumap.fr" />
+    <meta name="twitter:description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta name="twitter:image" content="http://www.sunumap.fr/images/logo.png" />
+    <meta name="twitter:site" content="@geocartageocarta" />
+    <meta name="twitter:title" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie." />
+    <!-- Facebook -->
+    <meta name="fb:pages" content="https://fr-fr.facebook.com/geocarta/" />
+    <meta property="fb:app_id" content="155454821310813A" />
+    <meta property="fb:page_id" content="270122530294A" />
+<!-- Apps meta -->
+    <meta property="og:description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:image" content="https://www.sunumap.fr/images/logo.jpg" />
+    <meta property="og:image:height" content="150" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="150" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="sunumap.fr" />
+    <meta property="og:title" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.sunumap.fr/">
+<!-- Refresh meta -->
+    <meta http-equiv="Refresh" content="240" />
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/gtag/js?id=UA-45805660-2" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45805660-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-45805660-2');
+    </script>
  
 	  <meta name="author" content="@lang(lcfirst ('Author'))">
 	       @if(isset($post) && $post->meta_keywords)
