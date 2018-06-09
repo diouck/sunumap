@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="{{ config('app.locale') }}"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="{{ config('app.locale') }}"> <!--<![endif]-->
 <head>
 
-	<!--- basic page needs
-	================================================== -->
-	<meta charset="utf-8">
-	<title>{{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('SUNUMAP')) }}</title>
-	<meta name="description" content="{{ isset($post) && $post->meta_description ? $post->meta_description : __('description') }}">
-	<meta name="author" content="@lang(lcfirst ('Author'))">
-	@if(isset($post) && $post->meta_keywords)
+	  <!--meta content and open graph tags for social sharing see _includes/metal.html-->
+      <title>SUNUMAP | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="twitter:card" content="SUNUMAP | content ">
+      <meta name="twitter:site" content="@sunumap">
+      <meta name="twitter:creator" content="@sunumap">
+      <meta name="twitter:title" content="SUNUMAP | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }} ">
+      <meta name="twitter:description" content="SUNUMAP: {{ isset($post) && $post->meta_description ? $post->meta_description : __('description') }}">
+      <meta name="twitter:domain" content="https://www.sunumap.fr" />
+      <meta name="twitter:image" content="http://www.sunumap.fr/images/logo.png" />
+      <!--Open Graph meta data-->
+      <meta property="og:title" content="SUNUMAP | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="SUNUMAP | content" />
+      <meta property="og:image" content="http://www.auran.org/sites/all/themes/auran/assets/images/logo.svg" />
+      <meta property="og:image:width" content="32" />
+      <meta property="og:image:height" content="32" />
+      <meta property="og:image" content="http://www.sunumap.fr/1.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="1200" />
+      <meta property="og:description" content="SUNUMAP |  {{ isset($post) && $post->meta_description ? $post->meta_description : __('description') }}" />
+      <meta property="og:url" content="https://www.sunumap.fr" />
+ 
+	  <meta name="author" content="@lang(lcfirst ('Author'))">
+	       @if(isset($post) && $post->meta_keywords)
 		<meta name="keywords" content="{{ $post->meta_keywords }}">
-	@endif
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+	       @endif
+      <meta name="csrf-token" content="{{ csrf_token() }}">
 
 	<!-- mobile specific metas
 	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 
     <!-- CSS FILES -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
