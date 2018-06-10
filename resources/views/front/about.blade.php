@@ -1,22 +1,18 @@
 @extends('front.layout')
 
-@section('main')
-
- 
-                            
-                           <!--start wrapper-->
+@section('main')          <!--start wrapper-->
   <section class="wrapper">
         <section class="page_head">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="page_title">
-                            <h2>About Us</h2>
+                            <h2>A propos de nous</h2>
                         </div>
                         <nav id="breadcrumbs">
                             <ul>
                                 <li><a href="{{ route('home') }}">Accueil</a>/</li>
-                                <li>Pages</li>
+                                <li>A propos de nous</li>
                             </ul>
                         </nav>
                     </div>
@@ -172,12 +168,13 @@
                                     <ul class="team_social">
                                         <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
                                         <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="gmail" href="#." data-placement="top" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                                       <li><a class="gmail" href="mailto:diouckk@gmail.com" data-placement="top" data-toggle="tooltip" title="Envoyer un email"><i class="fa fa-envelope"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="team_prof">
                                 <h3 class="post-title">El Mahfoud SEDJELMACI  <small>Web Developer</small></h3>
+                                <hr>
                                 <p class="description">Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commo, magnase quis lacinia ornare, quam ante aliqua nisi, eu iaculis leo purus venenatis scelerisque. </p>
                             </div>
                         </div>
@@ -190,13 +187,13 @@
                                     <ul class="team_social">
                                         <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
                                         <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="gmail" href="#." data-placement="top" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a class="gmail" href="mailto:diouckk@gmail.com" data-placement="top" data-toggle="tooltip" title="Envoyer un email"><i class="fa fa-envelope"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="team_prof">
-                                <h3 class="post-title">Abdou Kâne DIOUCK<small>Web Developer</small></h3>
-                                <p class="description">Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commo, magnase quis lacinia ornare, quam ante aliqua nisi, eu iaculis leo purus venenatis scelerisque. </p>
+                                <h3 class="post-title">Abdou Kâne DIOUCK<small>Ingénieure SIG/Web developpeur</small></h3><hr>
+                                <p class="description">Diplômée d’un Master de Télédétection, analyse spatiale et environnement (TASE) à l’Université de Rennes 2. Abdou Kâne maitrise les outils de géomatique, de solides expériences dans l’interprétation d’images satellites et photographies aériennes et le developpement d'applications cartographiques.  </p>
                             </div>
                         </div>
                     </div> 

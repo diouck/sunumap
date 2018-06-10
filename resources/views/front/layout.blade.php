@@ -153,9 +153,9 @@
                     </div>
                     <div class="col-sm-4 top-info">
                         <ul>
-                            <li><a href="http://twitter.com/share?text=SUNUMAP &url=https://sunumap.fr" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="http://www.facebook.com/share.php?u=http://sunumap.fr" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://plus.google.com/share?url=  link " class="my-google"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="http://twitter.com/share?text=SUNUMAP &url=www.sunumap.fr" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://www.facebook.com/share.php?u=www.sunumap.fr" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://plus.google.com/share?url=www.sunumap.fr " class="my-google"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
                             <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
