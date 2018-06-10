@@ -11,12 +11,12 @@
                     <nav id="breadcrumbs">
                         <ul>
                             <li><a href="{{ route('home') }}">Accueil</a>/</li>
-                                <li>Référenes</li>
+                                <li>Références</li>
                         </ul>
                     </nav>
 
                     <div class="page_title">
-                        <h2>Référenes</h2>
+                        <h2>Références</h2>
                     </div>
                 </div>
             </div>

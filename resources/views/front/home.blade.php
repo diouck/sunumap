@@ -131,7 +131,7 @@
                                 <h3>PRODUCTION DE DONNÉES GÉOGRAPHIQUES</h3>
                             </div>
                         </div>
-                        <div class="panel-body">A partir d’outils mobiles (SIG Nomades et GPS) ; et de l’hybridation de données image (aérienne, pléiade, Copernicus…), nous produisons des séries de données , fiables, à jour et riches  qui décrivent vos territoires de l’échelle régionale, à la grande échelle. Cœur de métier historique,  cette expertise unique est reconnue au plan national, et par de nombreuses régions.</div>
+                        <div class="panel-body">A partir d’outils mobiles (SIG Nomades et GPS) ; et de l’hybridation de données image (aérienne, pléiade, landsat, Modis), nous produisons des séries de données , fiables, à jour et riches  qui décrivent vos territoires de l’échelle régionale, à la grande échelle. Cœur de métier historique,  cette expertise unique est reconnue au plan national, et par de nombreuses régions.</div>
                     </div>
                     <div class="col-sm-4">
                         <div class="serviceBox_3">
@@ -153,7 +153,7 @@
                                 <h3>DIFFUSION ET COMMUNICATION</h3>
                             </div>
                         </div>
-                        <div class="panel-body">La diffusion de données peut être effectuée suivant une grande variété de supports : cartes papier, services de carte web, formats SIG, CD-ROM, serveurs de données.En quelques clics, vous pouvez accèdent à une source d’information précieuse et complète : points d’intérêts (institutions, commerces, loisirs, patrimoine historique et culturel…), températures, risques majeurs (inondations, incendies), information en 2D et en 3D, reliefs, photos aériennes.</div>
+                        <div class="panel-body">La diffusion de données peut être effectuée suivant une grande variété de supports : cartes papier, services de carte web, formats SIG, CD-ROM, serveurs de données. En quelques clics, vous pouvez accèdent à une source d’information précieuse et complète : points d’intérêts (institutions, commerces, loisirs, patrimoine historique et culturel…), températures, risques majeurs (inondations, incendies), information en 2D et en 3D, reliefs, photos aériennes.</div>
                     </div>
 
                      
