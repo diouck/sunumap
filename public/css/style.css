@@ -195,7 +195,7 @@ a:focus{
 ====================================*/
 
 #logo-bar {
-    padding: 35px 0;
+    /*padding: 35px 0;*/
     background: #fff;
 }
 #logo-bar.scroll-to-fixed-fixed{
@@ -220,7 +220,7 @@ a:focus{
 .page_head {
     background: #727CB6;
     border-bottom: 1px solid #EAEAEA;
-    padding:30px 0;
+    /*padding:30px 0;*/
 }
 
 .page_title{ float: left; }
