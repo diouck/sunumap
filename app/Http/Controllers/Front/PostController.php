@@ -72,6 +72,15 @@ class PostController extends Controller
 
         return view('front.about', compact('posts','categories'));
     }
+
+        public function  credits()
+    {
+        $posts = $this->postRepository->getActiveOrderByDate($this->nbrPages); 
+
+        return view('front.credits', compact('posts','categories'));
+    }
+
+
     /**
      * Display a listing of the posts for the specified category.
      *

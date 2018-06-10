@@ -23,6 +23,8 @@ Route::name('home')->get('/', 'Front\PostController@home');
 Route::name('portfolio')->get('/portfolio', 'Front\PostController@portfolio');
 //about
 Route::name('about')->get('/about', 'Front\PostController@about');
+//credits
+Route::name('credits')->get('/credits', 'Front\PostController@credits');
 // Contact
 Route::resource('contacts', 'Front\ContactController', ['only' => ['create', 'store']]);
 

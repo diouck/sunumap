@@ -328,10 +328,10 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3 col-lg-3">
                     <div class="widget_title">
-                        <h4><span>About Us</span></h4>
+                        <h4><span>Qui sommes-nous ?</span></h4>
                     </div>
                     <div class="widget_content">
-                        <p>Donec earum rerum hic tenetur ans sapiente delectus, ut aut reiciendise voluptat maiores alias consequaturs aut perferendis doloribus asperiores.</p>
+                        <p>SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie.</p>
                         <ul class="contact-details-alt">
                             <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: #2021 Lorem Ipsum</p></li>
                             <li><i class="fa fa-user"></i> <p><strong>Phone</strong>:(+91) 9000-12345</p></li>
@@ -341,28 +341,21 @@
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-3">
                     <div class="widget_title">
-                        <h4><span>Recent Posts</span></h4>
+                        <h4><span>Articles Recents</span></h4>
                     </div>
                  
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-3">
                     <div class="widget_title">
-                        <h4><span>Twitter</span></h4>
+                        <h4><span>Mentions Légales</span></h4>
                     </div>
                     <div class="widget_content">
-                        <ul class="tweet_list">
-                            <li class="tweet_content item">
-                                <p class="tweet_link"><a href="#">@jquery_rain </a> Lorem ipsum dolor et, consectetur adipiscing eli</p>
-                                <span class="time">29 September 2015</span>
+                        <ul class="contact-details-alt">
+                            <li >
+                                <p  class="fa fa-info"><a href="{{ route('credits') }}">  Crédits & Mentions Légales </a> </p>
+                              
                             </li>
-                            <li class="tweet_content item">
-                                <p class="tweet_link"><a href="#">@jquery_rain </a> Lorem ipsum dolor et, consectetur adipiscing eli</p>
-                                <span class="time">29 September 2015</span>
-                            </li>
-                            <li class="tweet_content item">
-                                <p class="tweet_link"><a href="#">@jquery_rain </a> Lorem ipsum dolor et, consectetur adipiscing eli</p>
-                                <span class="time">29 September 2015</span>
-                            </li>
+                           
                         </ul>
                     </div>
                     <div class="widget_content">
@@ -371,7 +364,7 @@
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-3">
                     <div class="widget_title">
-                        <h4><span>Flickr Gallery</span></h4>
+                        <h4><span>Gallerie Flickr </span></h4>
                     </div>
                     <div class="widget_content">
                         <div class="flickr">
@@ -388,7 +381,7 @@
         <div class="container">
             <div class="row">
             <div class="col-sm-6">
-                <p class="copyright">&copy; Copyright 2015 Electrify | Powered by  <a href="http://www.bestjquery.com/">Best jQuery</a></p>
+                <p class="copyright">&copy; Copyright 2017 SunuMap | Produit par  <a href="http://www.sunumap.fr/">SunMap</a></p>
             </div>
 
             <div class="col-sm-6 ">
