@@ -204,7 +204,7 @@
 					</ul>
 				</li>
                 <li {{ currentRoute('portfolio') }}>
-                    <a href=" /portfolio  ">@lang('Portfolio')</a>
+                    <a href=" {{ route('portfolio') }}  ">@lang('Portfolio')</a>
                 </li>
                  
 				@guest
