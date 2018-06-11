@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>SunuMap | {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
+        <title>SunuMap {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel="manifest" href="/manifest/manifest.json">
-    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#e2001a">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/logo-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('manifest/manifest.json') }}">
+    <link rel="mask-icon" href="{{ asset('assets/img/safari-pinned-tab.svg') }}" color="#e2001a">
     <meta name="theme-color" content="#ffffff">
-    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('assets/icons/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="SunuMap">
     <meta name="application-name" content="SunuMap">
-    <meta name="msapplication-config" content="/manifest/browserconfig.xml">
+    <meta name="msapplication-config" content="/manifest/browserconfig.xml') }}">
 
     <link rel="dns-prefetch" href="//logs4.xiti.com/">
         <link rel="dns-prefetch" href="//www.googletagmanager.com/">
@@ -58,7 +58,7 @@
     <meta property="fb:page_id" content="270122530294A" />
 <!-- Apps meta -->
     <meta property="og:description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
-    <meta property="og:image" content="https://www.sunumap.fr/images/logo.jpg" />
+    <meta property="og:image" content="https://www.sunumap.fr/images/logo.png" />
     <meta property="og:image:height" content="150" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="150" />
