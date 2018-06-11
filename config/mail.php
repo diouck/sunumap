@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'diouckk@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'diouck'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('MAIL_USERNAME', 'diouckk@gmail.com'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('MAIL_PASSWORD', 'Bacspace9!!'),
 
     /*
     |--------------------------------------------------------------------------
@@ -100,7 +100,7 @@ return [
     */
 
     'sendmail' => '/usr/sbin/sendmail -bs',
-
+    'pretend' => false,
     /*
     |--------------------------------------------------------------------------
     | Markdown Mail Settings
@@ -111,7 +111,13 @@ return [
     | of the emails. Or, you may simply stick with the Laravel defaults!
     |
     */
-
+    'stream' => [
+           'ssl' => [
+              'allow_self_signed' => true,
+              'verify_peer' => false,
+              'verify_peer_name' => false,
+           ],
+        ],
     'markdown' => [
         'theme' => 'default',
 
