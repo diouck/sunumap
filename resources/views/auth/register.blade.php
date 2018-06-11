@@ -11,8 +11,8 @@
                         </div>
                         <nav id="breadcrumbs">
                             <ul>
-                                <li><a href="{{ route('home') }}">Home</a>/</li>
-                                <li>Pages</li>
+                                <li><a href="{{ route('home') }}">Accueil</a>/</li>
+                                <li>@lang('Register')</li>
                             </ul>
                         </nav>
                     </div>
