@@ -19,20 +19,21 @@
     <meta name="msapplication-config" content="/manifest/browserconfig.xml') }}">
 
     <link rel="dns-prefetch" href="//logs4.xiti.com/">
-        <link rel="dns-prefetch" href="//www.googletagmanager.com/">
-        <link rel="dns-prefetch" href="//www.google-analytics.com/">
-        <link rel="dns-prefetch" href="//sunumap.fr/">
-        <link rel="dns-prefetch" href="//www.sunumap.fr/category/sig-teledetection/">
-        <link rel="dns-prefetch" href="//www.sunumap.fr/category/conseils-communication/">
-        <link rel="dns-prefetch" href="//www.sunumap.fr/category/formation/">
-        <link rel="dns-prefetch" href="//www.sunumap.fr/category/applications-en-ligne/">
-        <link rel="dns-prefetch" href="//www.sunumap.fr/category/logiciels/">
-        <link rel="dns-prefetch" href="//s.ouest-france.fr/">
-        <link rel="dns-prefetch" href="//www.googletagservices.com/">
-        <link rel="dns-prefetch" href="//partner.googleadservices.com/">
-        <link rel="dns-prefetch" href="//ajax.googleapis.com/">
-        <link rel="dns-prefetch" href="//fonts.googleapis.com/">
-        <link rel="dns-prefetch" href="//fonts.gstatic.com/">   
+    <link rel="dns-prefetch" href="//www.googletagmanager.com/">
+    <link rel="dns-prefetch" href="//www.google-analytics.com/">
+    <link rel="dns-prefetch" href="//sunumap.fr/">
+    <link rel="dns-prefetch" href="//www.sunumap.fr/category/sig-teledetection/">
+    <link rel="dns-prefetch" href="//www.sunumap.fr/category/conseils-communication/">
+    <link rel="dns-prefetch" href="//www.sunumap.fr/category/formation/">
+    <link rel="dns-prefetch" href="//www.sunumap.fr/category/applications-en-ligne/">
+    <link rel="dns-prefetch" href="//www.sunumap.fr/category/logiciels/">
+    <link rel="dns-prefetch" href="//www.sunumap.fr/category/about/">
+    <link rel="dns-prefetch" href="//www.sunumap.fr/category/contact/"> 
+    <link rel="dns-prefetch" href="//www.googletagservices.com/">
+    <link rel="dns-prefetch" href="//partner.googleadservices.com/">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com/">   
 
 <!-- Description meta -->
     <meta name="description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
@@ -59,9 +60,14 @@
 <!-- Apps meta -->
     <meta property="og:description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta property="og:image" content="https://www.sunumap.fr/images/logo.png" />
-    <meta property="og:image:height" content="150" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="150" />
+    <meta property="og:image:width" content="32" />
+    <meta property="og:image:height" content="32" />
+    <meta property="og:image" content="https://www.sunumap.fr/images/logo.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    
+
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="sunumap.fr" />
     <meta property="og:title" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
