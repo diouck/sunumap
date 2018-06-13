@@ -22,7 +22,44 @@ lng = 77.20341;
 
 var map;
 var MY_MAPTYPE_ID = 'custom_style';
- 
+  
+  function initialize() {
+        var map = L.map('page_maps',{scrollWheelZoom: false,zoomControl: false}).setView([34.8862145,-1.3056963], 13); // LIGNE 14
+
+        	var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+	var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
+		streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
+		
+    
+        map.addLayer(streets);
+        new L.Control.Zoom({ position: 'bottomleft' }).addTo(map);
+        var customIcon = L.icon({
+		    iconUrl: 'http://sunumap.fr/images/icon-location@2x.png',
+		    //shadowUrl: 'icon-shadow.png',
+		    iconSize:     [64, 64], // taille de l'icone
+		    //shadowSize:   [50, 64], // taille de l'ombre
+		    iconAnchor:   [32, 64], // point de l'icone qui correspondra à la position du marker
+		    //shadowAnchor: [32, 64],  // idem pour l'ombre
+		    popupAnchor:  [-3, -76] // point depuis lequel la popup doit s'ouvrir relativement à l'iconAnchor
+		});
+
+	L.marker([34.8862145,-1.3056963], {icon: customIcon}).addTo(map);
+	var baseLayers = {
+		
+		"Streets": streets,
+		"Grayscale": grayscale
+	};
+
+	 
+
+	L.control.layers(baseLayers).addTo(map);
+
+    }
+/*
 function initialize() {
 
 	  var featureOpts = [
@@ -101,6 +138,6 @@ function initialize() {
 	google.maps.event.addDomListener(window, 'load', initialize);
 }
 
-
+*/
 
 /*-----------------------------------------------------------------*/

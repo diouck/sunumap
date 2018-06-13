@@ -29,15 +29,16 @@
               <h2>Mentions Légales</h2> 
               
               <h3>Présentation</h3>
-              <p>SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc.</p>
+              <p>BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc.</p>
 
               <h3>Editeur du site</h3>
-              <p>Abdou DIOUCK, 6 rue de l'indre 44800 Nantes, France.</p>
-              <p>Téléphone : 0689094261</p>
+              <p>BESCI 64, Rue Ibn Khamis, 13000 Tlemcen (Algérie).</p>
+              <p>Téléphone Mobile : (+213) 5 49 83 88 97</p>
+              <p>Téléphone Fixe : (+213) 43 27 57 90</p>
               <p>Siret : 573 000 989  44926</p>
 
               <h3>Responsable de la publication</h3>
-              <p>Abdou DIOUCK</p>
+              <p>BESCI</p>
 
               <h3>Hébergeur</h3>
               <p>OVH, 2 rue Kellermann 59100 Roubaix – France.</p>

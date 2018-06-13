@@ -1,5 +1,12 @@
 @extends('front.layout')
+@section('scripts')
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyCTIn22N0OJ6j4PjvTkqi8ROqN_XhKZUyQ"></script>
+        <script type="text/javascript" src="../../assets/lib/leaflet/leaflet-google-correct-v1.js"></script>
 
+ 
+@endsection
 @section('main')
 
 
@@ -25,7 +32,11 @@
 
         <section class="contact_2">
             <div class="maps">
-                <div id="page_maps"></div>
+                
+        <div id="page_maps"  ></div>
+    
+
+               
             </div>
             <div class="container">
                 <div class="row sub_content">
@@ -33,11 +44,11 @@
                         <div class="dividerHeading">
                             <h4><span>Get in Touch</span></h4>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti ducimus fuga quidem quisquam ut!</p>
-
+                        <p>Si vous préférez nous contacter par e-mail, nous ferons en sorte de vous répondre sous 24 heures. Nous ne vous enverrons des messages publicitaires. Chez BESCI, nous accordons une grande importance à vos préférences en matière de confidentialité. Veuillez consulter notre politique de confidentialité pour plus d’informations.</p>
+                        <hr>
                         <div class="alert alert-success hidden alert-dismissable" id="contactSuccess">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Success!</strong> Your message has been sent to us.
+                            <strong>Success!</strong> Nous accuserons réception de votre message par retour d’e-mail à l’adresse que vous nous avez communiquée. À noter : tous les e-mails envoyés par le service client de Bose proviennent de l’adresse contact@besci.dz. Il est donc possible que certains filtres anti-spam bloquent nos réponses, identifiées comme courrier indésirable. Si vous ne recevez pas d’e-mail de confirmation dans les heures qui suivent l’envoi de votre message, ajoutez l’adresse contact@besci.dz à la liste des expéditeurs de confiance de votre filtre anti-spam.
                         </div>
 
                         <div class="alert alert-error hidden" id="contactError">
@@ -110,13 +121,13 @@
                         <div class="sidebar">
                             <div class="widget_info">
                                 <div class="dividerHeading">
-                                    <h4><span>Contact Info</span></h4>
+                                    <h4><span>Service clients</span></h4>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti ducimus fuga quidem quisquam ut!</p>
+                                <p>Appelez ou planifiez un rendez-vous téléphonique.Assistance commerciale : du lundi au samedi de 8h à 22h. </p>
                                 <ul class="widget_info_contact">
-                                    <li><i class="fa fa-map-marker"></i><strong>Address</strong> <p>: #2021 Lorem Ipsum<br>Delhi</p></li>
-                                    <li><i class="fa fa-envelope"></i><strong>Email</strong> <p>: <a href="#">mail@example.com</a></p> <p>: <a href="#">mail@example.com</a></p></li>
-                                    <li><i class="fa fa-phone"></i><strong>Our Phone</strong> <p>: (+91) 9000-12345</p><p>: (+91) 8000-54321</p></li>
+                                    <li><i class="fa fa-map-marker"></i><strong>Address</strong> <p>: 64, Rue Ibn Khamis, 13000 Tlemcen <br>Algérie</p></li>
+                                    <li><i class="fa fa-envelope"></i><strong>Email</strong> <p>: <a href="#">webmaster@besci.dz</a></p> <p>: <a href="#">contact@besci.dz</a></p></li>
+                                    <li><i class="fa fa-phone"></i><strong>Our Phone</strong> <p>: (+213) 43 27 57 90</p><p>: (+213) 5 49 83 88 97</p></li>
                                 </ul>
                             </div>
 

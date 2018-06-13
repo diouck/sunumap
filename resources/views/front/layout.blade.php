@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>SunuMap {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
+        <title>BESCI {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/logo-32x32.png') }}">
@@ -14,8 +14,8 @@
     <link rel="mask-icon" href="{{ asset('assets/img/safari-pinned-tab.svg') }}" color="#e2001a">
     <meta name="theme-color" content="#ffffff">
     <link rel="shortcut icon" href="{{ asset('assets/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="SunuMap">
-    <meta name="application-name" content="SunuMap">
+    <meta name="apple-mobile-web-app-title" content="BESCI">
+    <meta name="application-name" content="BESCI">
     <meta name="msapplication-config" content="/manifest/browserconfig.xml') }}">
 
     <link rel="dns-prefetch" href="//logs4.xiti.com/">
@@ -36,29 +36,29 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com/">   
 
 <!-- Description meta -->
-    <meta name="description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta name="description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
 <!-- Social meta -->
     <!-- Twitter -->
     <meta name="twitter:app:country" content="FR" />
     <meta name="twitter:app:id:googleplay" content="fr.sunumap" />
     <meta name="twitter:app:id:ipad" content="493304166" />
     <meta name="twitter:app:id:iphone" content="493304166" />
-    <meta name="twitter:app:name:googleplay" content="SunuMap" />
-    <meta name="twitter:app:name:ipad" content="SunuMap" />
-    <meta name="twitter:app:name:iphone" content="SunuMap" /> 
+    <meta name="twitter:app:name:googleplay" content="BESCI" />
+    <meta name="twitter:app:name:ipad" content="BESCI" />
+    <meta name="twitter:app:name:iphone" content="BESCI" /> 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@geocarta" />
     <meta name="twitter:domain" content="https://www.sunumap.fr" />
-    <meta name="twitter:description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta name="twitter:description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta name="twitter:image" content="http://www.sunumap.fr/images/logo.png" />
     <meta name="twitter:site" content="@geocartageocarta" />
-    <meta name="twitter:title" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie." />
+    <meta name="twitter:title" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie." />
     <!-- Facebook -->
     <meta name="fb:pages" content="https://fr-fr.facebook.com/geocarta/" />
     <meta property="fb:app_id" content="155454821310813A" />
     <meta property="fb:page_id" content="270122530294A" />
 <!-- Apps meta -->
-    <meta property="og:description" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta property="og:image" content="https://www.sunumap.fr/images/logo.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="32" />
@@ -70,7 +70,7 @@
 
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="sunumap.fr" />
-    <meta property="og:title" content="SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMap offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:title" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.sunumap.fr/">
 <!-- Refresh meta -->
@@ -154,8 +154,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 top-info hidden-xs">
-                        <span><i class="fa fa-phone"></i>Phone: (123) 456-7890</span>
-                        <span><i class="fa fa-envelope"></i>Email: mail@example.com</span>
+                        <span><i class="fa fa-phone"></i>Phone: (+213) 5 49 83 88 97</span>
+                        <span><i class="fa fa-envelope"></i>Email: contact@besci.dz</span>
                     </div>
                     <div class="col-sm-4 top-info">
                         <ul>
@@ -337,11 +337,13 @@
                         <h4><span>Qui sommes-nous ?</span></h4>
                     </div>
                     <div class="widget_content">
-                        <p>SunuMap est une entreprise spécialisée dans les solutions géomatiques, SunuMap se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie.</p>
+                        <p>BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie.</p>
                         <ul class="contact-details-alt">
-                            <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: #2021 Lorem Ipsum</p></li>
-                            <li><i class="fa fa-user"></i> <p><strong>Phone</strong>:(+91) 9000-12345</p></li>
-                            <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: <a href="#">mail@example.com</a></p></li>
+                            <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: 64, Rue IBn Khamis
+
+13000 Tlemcen (Algérie)</p></li>
+                            <li><i class="fa fa-user"></i> <p><strong>Phone</strong>:(+213) 5 49 83 88 97</p></li>
+                            <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: <a href="#">contact@besci.dz</a></p></li>
                         </ul>
                     </div>
                 </div>
@@ -387,7 +389,7 @@
         <div class="container">
             <div class="row">
             <div class="col-sm-6">
-                <p class="copyright">&copy; Copyright 2017 SunuMap | Produit par  <a href="http://www.sunumap.fr/">SunMap</a></p>
+                <p class="copyright">&copy; Copyright 2018 BESCI | Produit par  <a href="http://www.sunumap.fr/">BESCI</a></p>
             </div>
 
             <div class="col-sm-6 ">
@@ -395,7 +397,7 @@
 
                     <ul class="footbot_social">
                         <li><a class="fb" href="http://www.facebook.com/share.php?u=http://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twtr" href="http://twitter.com/share?text=SUNUMAP &url=https://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="twtr" href="http://twitter.com/share?text=BESCI &url=https://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                         <li><a class="google" href="https://plus.google.com/share?url=www.sunumap.fr" data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-google"></i></a></li>
                         <li><a class="skype" href="#." data-placement="top" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a></li>
                         <li><a class="rss" href="#." data-placement="top" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>

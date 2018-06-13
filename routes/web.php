@@ -25,6 +25,15 @@ Route::name('portfolio')->get('/portfolio', 'Front\PostController@portfolio');
 Route::name('about')->get('/about', 'Front\PostController@about');
 //credits
 Route::name('credits')->get('/credits', 'Front\PostController@credits');
+//blog
+Route::prefix('blog')->namespace('Front')->group(function () {
+    Route::name('blog.display')->get('{slug}', 'PostController@show');
+    Route::name('blog.tag')->get('tag/{tag}', 'PostController@tag');
+    Route::name('blog.search')->get('', 'PostController@search');
+    Route::name('blog.comments.store')->post('{post}/comments', 'CommentController@store');
+    Route::name('blog.comments.comments.store')->post('{post}/comments/{comment}/comments', 'CommentController@store');
+    Route::name('posts.comments')->get('{post}/comments/{page}', 'CommentController@comments');
+});
 // Contact
 Route::resource('contacts', 'Front\ContactController', ['only' => ['create', 'store']]);
 
