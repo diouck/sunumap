@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="page_title">
-                        <h2>Nous contacter</h2>
+                        <h2></h2>
                     </div>
                     <nav id="breadcrumbs">
                         <ul>

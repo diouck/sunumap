@@ -16,7 +16,7 @@
                     </nav>
 
                     <div class="page_title">
-                        <h2>Références</h2>
+                        <h2></h2>
                     </div>
                 </div>
             </div>
