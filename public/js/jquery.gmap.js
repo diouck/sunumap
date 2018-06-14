@@ -24,7 +24,7 @@ var map;
 var MY_MAPTYPE_ID = 'custom_style';
   
   function initialize() {
-        var map = L.map('page_maps',{scrollWheelZoom: false,zoomControl: false}).setView([34.8862145,-1.3056963], 13); // LIGNE 14
+        var map = L.map('page_maps',{scrollWheelZoom: false,zoomControl: false}).setView([34.8862145,-1.3056963], 3); // LIGNE 14
 
         	var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
 			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
@@ -48,6 +48,8 @@ var MY_MAPTYPE_ID = 'custom_style';
 		});
 
 	L.marker([34.8862145,-1.3056963], {icon: customIcon}).addTo(map);
+	L.marker([47.2382007,-1.6300958], {icon: customIcon}).addTo(map);
+	L.marker([16.0200352,-16.4934046], {icon: customIcon}).addTo(map);
 	var baseLayers = {
 		
 		"Streets": streets,
