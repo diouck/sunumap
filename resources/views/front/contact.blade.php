@@ -42,7 +42,7 @@
                 <div class="row sub_content">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="dividerHeading">
-                            <h4><span>Get in Touch</span></h4>
+                            <h4><span>Contacter-nous </span></h4>
                         </div>
                         <p>Si vous préférez nous contacter par e-mail, nous ferons en sorte de vous répondre sous 24 heures. Nous ne vous enverrons des messages publicitaires. Chez BESCI, nous accordons une grande importance à vos préférences en matière de confidentialité. Veuillez consulter notre politique de confidentialité pour plus d’informations.</p>
                         <hr>
