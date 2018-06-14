@@ -192,8 +192,8 @@
                                 </div>
                             </div>
                             <div class="team_prof">
-                                <h3 class="post-title">Abdou Kâne DIOUCK<small>Ingénieure SIG/Web developpeur</small></h3><hr>
-                                <p class="description">Diplômée d’un Master de Télédétection, analyse spatiale et environnement (TASE) à l’Université de Rennes 2. Abdou Kâne maitrise les outils de géomatique, de solides expériences dans l’interprétation d’images satellites et photographies aériennes et le developpement d'applications cartographiques.  </p>
+                                <h3 class="post-title">Abdou DIOUCK<small>Ingénieure SIG/Web developpeur</small></h3><hr>
+                                <p class="description">De formation SIGAT avec d’un Master de Télédétection, analyse spatiale et environnement (TASE) à l’Université de Rennes 2. Abdou Kâne maitrise les outils de géomatique, de solides expériences dans l’interprétation d’images satellites et photographies aériennes et le developpement d'applications cartographiques.  </p>
                             </div>
                         </div>
                     </div> 
