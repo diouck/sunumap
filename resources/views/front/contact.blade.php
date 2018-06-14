@@ -128,6 +128,7 @@
                                     <li><i class="fa fa-map-marker"></i><strong>Address</strong> <p>: 64, Rue Ibn Khamis, 13000 Tlemcen <br>Algérie</p></li>
                                     <li><i class="fa fa-envelope"></i><strong>Email</strong> <p>: <a href="#">webmaster@besci.dz</a></p> <p>: <a href="#">contact@besci.dz</a></p></li>
                                     <li><i class="fa fa-phone"></i><strong>Our Phone</strong> <p>: (+213) 43 27 57 90</p><p>: (+213) 5 49 83 88 97</p></li>
+                                </p><p>: (+33) 6 89 09 42 61</p></li>
                                 </ul>
                             </div>
 
