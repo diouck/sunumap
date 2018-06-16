@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+    'host' => env('MAIL_HOST', 'smtp.sunumap.fr'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'diouckk@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'diouck'),
+        'address' => env('MAIL_FROM_ADDRESS', 'webmaster@sunumap.fr'),
+        'name' => env('MAIL_FROM_NAME', 'webmaster'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME', 'diouckk@gmail.com'),
+    'username' => env('MAIL_USERNAME', 'webmaster@sunumap.fr'),
 
-    'password' => env('MAIL_PASSWORD', 'Bacspace9!!'),
+    'password' => env('MAIL_PASSWORD', 'serversig'),
 
     /*
     |--------------------------------------------------------------------------
