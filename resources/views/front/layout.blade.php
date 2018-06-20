@@ -166,7 +166,7 @@
                     </div>
                     <div class="col-sm-4 top-info">
                         <ul>
-                            <li><a href="http://twitter.com/share?text=SUNUMAP &url=www.sunumap.fr" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://twitter.com/share?text=BESCI (Bureau d'Etude Solutions et Conseils en Informatique) &url=http://sunumap.fr/" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://www.facebook.com/share.php?u=www.sunumap.fr" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="https://plus.google.com/share?url=www.sunumap.fr " class="my-google"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
@@ -404,7 +404,7 @@
 
                     <ul class="footbot_social">
                         <li><a class="fb" href="http://www.facebook.com/share.php?u=http://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twtr" href="http://twitter.com/share?text=BESCI &url=https://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="twtr" href="http://twitter.com/share?text=BESCI (Bureau d'Etude Solutions et Conseils en Informatique) &url=https://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                         <li><a class="google" href="https://plus.google.com/share?url=www.sunumap.fr" data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-google"></i></a></li>
                         <li><a class="skype" href="#." data-placement="top" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a></li>
                         <li><a class="rss" href="#." data-placement="top" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>
