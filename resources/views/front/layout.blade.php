@@ -4,16 +4,13 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>BESCI {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
-    <meta name="description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc."/>
+    <title>BESCI (Bureau d'Etude Solutions et Conseils en Informatique)  {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
     <link rel="canonical" href="http://www.sunumap.fr" />
-    <meta property="og:locale" content="en_FR" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="FIFA World Cup Live Stream Online" />
+    <meta property="og:locale" content="en_FR" /> 
     <meta property="og:description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta property="og:url" content="http://www.sunumap.fr" />
-    <meta property="og:site_name" content="Géomatique" />
-    <meta property="article:section" content="SIG" /> 
+    <meta property="og:site_name" content="BESCI (Bureau d'Etude Solutions et Conseils en Informatique)" />
+    <meta property="article:section" content="BESCI (Bureau d'Etude Solutions et Conseils en Informatique)" /> 
     <meta property="og:image" content="http://www.sunumap.fr/images/site-web-sunumap.png" />
     <meta property="og:image:secure_url" content="http://www.sunumap.fr/images/site-web-sunumap.png" />
     <meta property="og:image:width" content="583" />
@@ -60,9 +57,9 @@
     <meta name="twitter:app:id:googleplay" content="fr.sunumap" />
     <meta name="twitter:app:id:ipad" content="493304166" />
     <meta name="twitter:app:id:iphone" content="493304166" />
-    <meta name="twitter:app:name:googleplay" content="BESCI" />
-    <meta name="twitter:app:name:ipad" content="BESCI" />
-    <meta name="twitter:app:name:iphone" content="BESCI" /> 
+    <meta name="twitter:app:name:googleplay" content="BESCI (Bureau d'Etude Solutions et Conseils en Informatique)" />
+    <meta name="twitter:app:name:ipad" content="BESCI (Bureau d'Etude Solutions et Conseils en Informatique)" />
+    <meta name="twitter:app:name:iphone" content="BESCI (Bureau d'Etude Solutions et Conseils en Informatique)" /> 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@geocarta" />
     <meta name="twitter:domain" content="https://www.sunumap.fr" />
