@@ -4,8 +4,25 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BESCI {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
+    <meta name="description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc."/>
+    <link rel="canonical" href="http://www.sunumap.fr" />
+    <meta property="og:locale" content="en_FR" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="FIFA World Cup Live Stream Online" />
+    <meta property="og:description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:url" content="http://www.sunumap.fr" />
+    <meta property="og:site_name" content="Géomatique" />
+    <meta property="article:section" content="SIG" /> 
+    <meta property="og:image" content="http://www.sunumap.fr/images/site-web-sunumap.png" />
+    <meta property="og:image:secure_url" content="http://www.sunumap.fr/images/site-web-sunumap.png" />
+    <meta property="og:image:width" content="583" />
+    <meta property="og:image:height" content="361" />
+    <script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.sunumap.fr\/","sameAs":[],"@id":"https:\/\/www.sunumap.fr\/#organization","name":"BESCI","logo":""}</script>
+    <!-- / Yoast SEO plugin. -->
 
-        <title>BESCI {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/logo-32x32.png') }}">
@@ -59,13 +76,6 @@
     <meta property="fb:page_id" content="270122530294A" />
 <!-- Apps meta -->
     <meta property="og:description" content="BESCI est une entreprise spécialisée dans les solutions géomatiques, BESCI se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. BESCI offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
-    <meta property="og:image" content="https://www.sunumap.fr/images/logo.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="32" />
-    <meta property="og:image:height" content="32" />
-    <meta property="og:image" content="https://www.sunumap.fr/images/logo.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="1200" />
     
 
     <meta property="og:locale" content="fr_FR" />
