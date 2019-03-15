@@ -171,7 +171,7 @@
                         <div class="item branding">
                             <div class="recent-item box">
                               <figure class="touching ">
-                                    <img src="images/portfolio/portfolio_5.png" alt="" class="img-responsive"/>
+                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
                                     <div class="option inner">
                                         <div>
                                             <h5>Info-Carto</h5>
@@ -219,7 +219,7 @@
                         <div class="item">
                             <div class="recent-item box">
                               <figure class="touching ">
-                                    <img src="images/portfolio/full/portfolio_8.png" alt="" class="img-responsive"/>
+                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
                                     <div class="option inner">
                                         <div>
                                             <h5>Info-Carto</h5>
