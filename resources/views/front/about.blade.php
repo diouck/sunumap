@@ -28,7 +28,7 @@
               <div class="dividerHeading">
                 <h4><span>Qui sommes nous?</span></h4>
               </div>
-                <img style="width: 230px" class="left_img img-thumbnail" src="images/sunumap/info-carto.png" alt="about img">
+                <img style="width: 350px" class="left_img img-thumbnail" src="images/sunumap/info-carto.png" alt="about img">
                             <p>BESCI (Bureau d'Etude Solutions et Conseils en Informatique), est un bureau d'études spécialisé en géomatique (cartographie et SIG), et Webmapping.</p>
 
                             <p>BESCI fournit à ses clients des solutions et applications cartographiques, à forte valeur ajoutée.</p>
