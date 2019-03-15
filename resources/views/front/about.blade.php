@@ -163,7 +163,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="images/sunumap/user.jpg" alt="profile img">
+                                <img style="width: 150px" src="images/sunumap/user.jpg" alt="profile img">
                                 <div class="social_media_team">
                                     <ul class="team_social">
                                         <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
@@ -182,7 +182,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="images/sunumap/user.jpg" alt="profile img">
+                                <img style="width: 150px" src="images/sunumap/user.jpg" alt="profile img">
                                 <div class="social_media_team">
                                     <ul class="team_social">
                                         <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
