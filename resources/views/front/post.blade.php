@@ -94,12 +94,12 @@
                                 </ul>
                             </div>
                             
-                            <div class="widget widget_about">
+                          <!--  <div class="widget widget_about">
                                 <div class="widget_title">
                                     <h4><span>Basic Text Widget</span></h4>
                                     </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adip, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
+                            </div> 
 
                             <div class="widget widget_tab">
                                 <div class="velocity-tab sidebar-tab">
@@ -167,7 +167,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+                            -->
                             <div class="widget widget_tag">
                                 <div class="widget_title">
                                     <h4><span>Tags Widget</span></h4>
