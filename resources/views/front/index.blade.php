@@ -97,7 +97,7 @@
                                     <li><a href="/category/autres"> Autres</a></li>
                                 </ul>
                             </div>
-                            
+                           <!-- 
                             <div class="widget widget_about">
                                 <div class="widget_title">
                                     <h4><span>Basic Text Widget</span></h4>
@@ -170,7 +170,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                             
                             <div class="widget widget_tag">
                                 <div class="widget_title">
