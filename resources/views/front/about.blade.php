@@ -28,7 +28,7 @@
               <div class="dividerHeading">
                 <h4><span>Qui sommes nous?</span></h4>
               </div>
-                <img class="left_img img-thumbnail" src="images/about_1.png" alt="about img">
+                <img class="left_img img-thumbnail" src="images/sunumap/info-carto.png" alt="about img">
                             <p>BESCI (Bureau d'Etude Solutions et Conseils en Informatique), est un bureau d'études spécialisé en géomatique (cartographie et SIG), et Webmapping.</p>
 
                             <p>BESCI fournit à ses clients des solutions et applications cartographiques, à forte valeur ajoutée.</p>
@@ -163,12 +163,12 @@
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="images/teams/1.png" alt="profile img">
+                                <img src="images/sunumap/user.png" alt="profile img">
                                 <div class="social_media_team">
                                     <ul class="team_social">
                                         <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
                                         <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                       <li><a class="gmail" href="mailto:diouckk@gmail.com" data-placement="top" data-toggle="tooltip" title="Envoyer un email"><i class="fa fa-envelope"></i></a></li>
+                                       <li><a class="gmail" href="mailto:contact@info-carto.dz" data-placement="top" data-toggle="tooltip" title="Envoyer un email"><i class="fa fa-envelope"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -182,12 +182,12 @@
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="images/teams/2.png" alt="profile img">
+                                <img src="images/sunumap/user.png" alt="profile img">
                                 <div class="social_media_team">
                                     <ul class="team_social">
                                         <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
                                         <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="gmail" href="mailto:diouckk@gmail.com" data-placement="top" data-toggle="tooltip" title="Envoyer un email"><i class="fa fa-envelope"></i></a></li>
+                                        <li><a class="gmail" href="mailto:contact@info-carto.dz" data-placement="top" data-toggle="tooltip" title="Envoyer un email"><i class="fa fa-envelope"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
