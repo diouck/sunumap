@@ -186,7 +186,7 @@
 Vous avez besoin d’une application sur mesure pour piloter votre activité et optimiser vos performances ?
 Vous souhaitez une application cartographique intégrée à votre système d’information ?</p>
 <p>
-Confiez la réalisation de votre projet à des experts de la cartographie : l’entreprise BESCI sait mettre au service de votre projet une équipe de spécialistes en géo-décisionnel : développeurs, consultants, géographes, formateurs.</p>
+Confiez la réalisation de votre projet à des experts de la cartographie : l’entreprise INFOCARTO sait mettre au service de votre projet une équipe de spécialistes en géo-décisionnel : développeurs, consultants, géographes, formateurs.</p>
                          
                         <a href="" class="btn btn-default btn-md">En savoir plus</a>&nbsp; 
                     </div>

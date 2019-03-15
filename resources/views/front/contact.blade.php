@@ -44,11 +44,11 @@
                         <div class="dividerHeading">
                             <h4><span>Contacter-nous </span></h4>
                         </div>
-                        <p>Si vous préférez nous contacter par e-mail, nous ferons en sorte de vous répondre sous 24 heures. Nous ne vous enverrons des messages publicitaires. Chez BESCI, nous accordons une grande importance à vos préférences en matière de confidentialité. Veuillez consulter notre politique de confidentialité pour plus d’informations.</p>
+                        <p>Si vous préférez nous contacter par e-mail, nous ferons en sorte de vous répondre sous 24 heures. Nous ne vous enverrons des messages publicitaires. Chez INFOCARTO, nous accordons une grande importance à vos préférences en matière de confidentialité. Veuillez consulter notre politique de confidentialité pour plus d’informations.</p>
                         <hr>
                         <div class="alert alert-success hidden alert-dismissable" id="contactSuccess">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Success!</strong> Nous accuserons réception de votre message par retour d’e-mail à l’adresse que vous nous avez communiquée. À noter : tous les e-mails envoyés par le service client de Bose proviennent de l’adresse contact@besci.dz. Il est donc possible que certains filtres anti-spam bloquent nos réponses, identifiées comme courrier indésirable. Si vous ne recevez pas d’e-mail de confirmation dans les heures qui suivent l’envoi de votre message, ajoutez l’adresse contact@besci.dz à la liste des expéditeurs de confiance de votre filtre anti-spam.
+                            <strong>Success!</strong> Nous accuserons réception de votre message par retour d’e-mail à l’adresse que vous nous avez communiquée. À noter : tous les e-mails envoyés par le service client de Bose proviennent de l’adresse contact@info-carto.dz. Il est donc possible que certains filtres anti-spam bloquent nos réponses, identifiées comme courrier indésirable. Si vous ne recevez pas d’e-mail de confirmation dans les heures qui suivent l’envoi de votre message, ajoutez l’adresse contact@info-carto.dz à la liste des expéditeurs de confiance de votre filtre anti-spam.
                         </div>
 
                         <div class="alert alert-error hidden" id="contactError">
@@ -126,7 +126,7 @@
                                 <p>Appelez ou planifiez un rendez-vous téléphonique.Assistance commerciale : du lundi au samedi de 8h à 22h. </p>
                                 <ul class="widget_info_contact">
                                     <li><i class="fa fa-map-marker"></i><strong>Address</strong> <p>: 64, Rue Ibn Khamis, 13000 Tlemcen <br>Algérie</p></li>
-                                    <li><i class="fa fa-envelope"></i><strong>Email</strong> <p>: <a href="#">webmaster@besci.dz</a></p> <p>: <a href="#">contact@besci.dz</a></p></li>
+                                    <li><i class="fa fa-envelope"></i><strong>Email</strong> <p>: <a href="#">webmaster@info-carto.dz</a></p> <p>: <a href="#">contact@info-carto.dz</a></p></li>
                                     <li><i class="fa fa-phone"></i><strong>Our Phone</strong> <p>: (+213) 43 27 57 90</p><p>: (+213) 5 49 83 88 97</p></li>
                                 </p><p>: (+33) 6 89 09 42 61</p></li>
                                 </ul>
