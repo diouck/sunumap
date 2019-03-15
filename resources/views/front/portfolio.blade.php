@@ -43,7 +43,7 @@
                         <div class="item mobile">
                             <div class="recent-item box">
                               <figure class="touching ">
-                                    <img src="images/portfolio/portfolio_11.png" alt="" class="img-responsive"/>
+                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
                                     <div class="option inner">
                                         <div>
                                             <h5>Touch and Swipe</h5>
