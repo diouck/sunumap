@@ -43,13 +43,13 @@
                         <div class="item mobile">
                             <div class="recent-item box">
                               <figure class="touching ">
-                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
+                                    <img src="images/sunumap/senegal.png" alt="" class="img-responsive"/>
                                     <div class="option inner">
                                         <div>
-                                            <h5>Info-Carto</h5>
-                                            <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
-                                            <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
+                                            <h5>Sunumap</h5>
+                                            <a href="images/sunumap/senegal.png" class="fa fa-search mfp-image"></a>
+                                            <a href="https://senegal.sunumap.fr" class="fa fa-link"></a>
+                                            <span>Géo-Dataviz</span>
                                         </div>
                                     </div>
                                 </figure>
