@@ -49,7 +49,7 @@
               <p>Nunc et magna nisi. lore Aliquam at erat in lorem purus aliquet mollis. Fusce elementum velit vel dolor iaculis. </p>
               <ul class="progress-skill-bar">
                 <li>
-                  <span class="lable">100%</span>
+                  <span class="lable">*</span>
                   <div class="progress_skill">
                     <div class="bar" data-value="100" role="progressbar" data-height="100">
                       Système d'information géographique
@@ -57,7 +57,7 @@
                   </div>
                 </li>
                 <li>
-                  <span class="lable">100%</span>
+                  <span class="lable">*</span>
                   <div class="progress_skill">
                     <div class="bar" data-value="100" role="progressbar" data-height="100">
                       
@@ -67,7 +67,7 @@
                   </div>
                 </li>
                 <li>
-                  <span class="lable">90%</span>
+                  <span class="lable">*</span>
                   <div class="progress_skill">
                     <div class="bar" data-value="90" role="progressbar" data-height="100">
                       Application cartographique interactive
@@ -75,7 +75,7 @@
                   </div>
                 </li>
                 <li>
-                  <span class="lable">80%</span>
+                  <span class="lable">*</span>
                   <div class="progress_skill">
                     <div class="bar" data-value="80" role="progressbar" data-height="100">
                       Conseil et formation
@@ -83,7 +83,7 @@
                   </div>
                 </li>
                 <li>
-                  <span class="lable">70%</span>
+                  <span class="lable">*</span>
                   <div class="progress_skill">
                     <div class="bar" data-value="70" role="progressbar" data-height="100">
                       Formation
