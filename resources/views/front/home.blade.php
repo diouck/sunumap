@@ -77,7 +77,7 @@
                                 <i class="fa fa-rocket"></i>
                             </div>
                             <div class="service-content">
-                                <h3><a href="/category/applications-en-ligne"> Conseils & Communication</a></h3>
+                                <h3><a href="/category/conseils-communication"> Conseils & Communication</a></h3>
                                 <p> Intégration, conseils et audits.</p>
                                  
                             </div>
@@ -89,7 +89,7 @@
                                 <i class="fa fa-user-md"></i>
                             </div>
                             <div class="service-content">
-                                <h3><a href="/category/applications-en-ligne"> Formation</a></h3>
+                                <h3><a href="/category/formation"> Formation</a></h3>
                                 <p> Se former aux métiers de l'informatique, de la cartographie, et du SIG,...</p>
                                  
                             </div>
