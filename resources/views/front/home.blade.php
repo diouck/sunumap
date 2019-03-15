@@ -101,7 +101,7 @@
                                 <i class="fa fa-twitter"></i>
                             </div>
                             <div class="service-content">
-                                <h3 ><a href="/category/applications-en-ligne"> Applications en ligne</a></h3>
+                                <h3 ><a href="/category/applications-cartographiques"> Applications en ligne</a></h3>
                                 <p> Développement d'applications cartographiques interactives pour utiliser et valoriser vos données géographiques..</p>
                                  >
                             </div>
