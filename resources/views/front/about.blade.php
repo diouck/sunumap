@@ -46,7 +46,7 @@
               <div class="dividerHeading">
                 <h4><span>Nos secteurs d'activités</span></h4>
               </div>
-              <p>Nunc et magna nisi. lore Aliquam at erat in lorem purus aliquet mollis. Fusce elementum velit vel dolor iaculis. </p>
+              <!--<p>Nunc et magna nisi. lore Aliquam at erat in lorem purus aliquet mollis. Fusce elementum velit vel dolor iaculis. </p>-->
               <ul class="progress-skill-bar">
                 <li>
                   <span class="lable">*</span>

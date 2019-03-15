@@ -194,7 +194,7 @@ Confiez la réalisation de votre projet à des experts de la cartographie : l’
             </div>
         </section>
  
-
+        <!--
         <section class="clients">
             <div class="container">
                 <div class="row sub_content">
@@ -209,12 +209,12 @@ Confiez la réalisation de votre projet à des experts de la cartographie : l’
                                 <li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 2" ><img src="images/clients/2.png" alt="" /></a></li>
                                 <li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 3" ><img src="images/clients/3.png" alt="" /></a></li>
                                 <li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 4" ><img src="images/clients/4.png" alt="" /></a></li>
-                            </ul><!--/ .client_items-->
+                            </ul> 
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <section class="promo_box wow bounce">
             <div class="container">
