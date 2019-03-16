@@ -29,9 +29,9 @@
                 <h4><span>Qui sommes nous?</span></h4>
               </div>
                 <img style="width: 350px" class="left_img img-thumbnail" src="images/sunumap/info-carto.png" alt="about img">
-                            <p>BESCI (Bureau d'Etude Solutions et Conseils en Informatique), est un bureau d'études spécialisé en géomatique (cartographie et SIG), et Webmapping.</p>
+                            <p>InfoCarto, est un bureau d'études spécialisé en géomatique (cartographie et SIG), et Conseils en Informatique.</p>
 
-                            <p>BESCI fournit à ses clients des solutions et applications cartographiques, à forte valeur ajoutée.</p>
+                            <p>InfoCarto fournit à ses clients des solutions et applications cartographiques, à forte valeur ajoutée.</p>
 
                             <p>Notre métier est d’accompagner nos clients dans l’acquisition et le traitement de la donnée, en ajoutant la composante géographique, mettant à leur disposition, ainsi un nouveau moyen d’analyse et un support de communication efficace.</p>
               Depuis toujours l'information géographiques et sa diffusions est un enjeu majeur. Elle est au coeur de toute prise de décision et sa maîtrise est indispensable au fonctionnement du monde tel que nous le connaissons.</p>
