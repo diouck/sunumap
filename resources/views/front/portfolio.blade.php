@@ -59,13 +59,13 @@
                         <div class="item responsive">
                             <div class="recent-item box">
                               <figure class="touching ">
-                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
+                                    <img src="images/sunumap/siren.png" alt="" class="img-responsive"/>
                                     <div class="option inner">
                                         <div>
-                                            <h5>Info-Carto</h5>
-                                            <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
-                                            <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
+                                            <h5>Localisation des entreprises</h5>
+                                            <a href="images/sunumap/siren.png" class="fa fa-search mfp-image"></a>
+                                            <a href="https://easy.sunumap.fr/mabbox/siren.html" class="fa fa-link"></a>
+                                            <span>Données SIREN</span>
                                         </div>
                                     </div>
                                 </figure>
