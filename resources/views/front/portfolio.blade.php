@@ -104,69 +104,27 @@
                             </div>
                         </div>
 
-                        <div class="item branding">
-                            <div class="recent-item box">
-                              <figure class="touching ">
-                                    <img src="images/sunumap/info-carto.png" alt=""/>
-                                    <div class="option inner">
-                                        <div>
-                                            <h5>Info-Carto</h5>
-                                            <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
-                                            <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
+                      
 
-                        <div class="item responsive">
-                            <div class="recent-item box">
-                              <figure class="touching ">
-                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
-                                    <div class="option inner">
-                                        <div>
-                                            <h5>Info-Carto</h5>
-                                            <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
-                                            <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
+                   
 
                         <div class="item branding">
                             <div class="recent-item box">
                               <figure class="touching ">
-                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
+                                    <img src="images/sunumap/lidar.png" alt="" class="img-responsive"/>
                                     <div class="option inner">
                                         <div>
-                                            <h5>Info-Carto</h5>
-                                            <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
+                                            <h5>Extraction de la végétation arborée</h5>
+                                            <a href="images/sunumap/lidar.png" class="fa fa-search mfp-image"></a>
                                             <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
+                                            <span>Données LIDAR</span>
                                         </div>
                                     </div>
                                 </figure>
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div class="recent-item box">
-                              <figure class="touching ">
-                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
-                                    <div class="option inner">
-                                        <div>
-                                            <h5>Info-Carto</h5>
-                                            <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
-                                            <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
+                     
 
                         <div class="item branding">
                             <div class="recent-item box">
@@ -216,21 +174,7 @@
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div class="recent-item box">
-                              <figure class="touching ">
-                                    <img src="images/sunumap/info-carto.png" alt="" class="img-responsive"/>
-                                    <div class="option inner">
-                                        <div>
-                                            <h5>Info-Carto</h5>
-                                            <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
-                                            <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
+                     
 
                     </div>
                     <!--end portfolio_masonry -->
