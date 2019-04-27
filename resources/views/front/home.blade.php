@@ -127,10 +127,10 @@
                                     <div class="news-thumb">
                                         <div class="swipe" id="slider" style="visibility: visible;">
                                             <ul class="swipe-wrap" style="width: 904px;">
-                                                <li><img alt="" src="images/blog/blog_1.jpg"></li>
-                                                <li><img alt="" src="images/blog/blog_2.jpg"></li>
-                                                <li><img alt="" src="images/blog/blog_3.jpg"></li>
-                                                <li><img alt="" src="images/blog/blog_4.jpg"></li>
+                                                <li><img alt="" src="images/blog/blog_1.png"></li>
+                                                <li><img alt="" src="images/blog/blog_2.png"></li>
+                                                <li><img alt="" src="images/blog/blog_3.png"></li>
+                                                <li><img alt="" src="images/blog/blog_4.png"></li>
                                             </ul>
                                             <div class="swipe-navi">
                                                 <div onclick="mySwipe.prev()" class="swipe-left"><i class="fa fa-chevron-left"></i></div>
@@ -167,7 +167,7 @@
                             </div>
                              <div class="col-lg-4  rec_blog">
                                 <div class="blogPic">
-                                    <img alt="" src="images/blog/blog_6.jpg">
+                                    <img alt="" src="images/blog/blog_6.png">
                                     <div class="blog-hover">
                                         <a href="#">
                                             <span class="icon">
@@ -203,7 +203,7 @@
                             </div>    
                             <div class="col-lg-4  rec_blog">
                                 <div class="blogPic">
-                                    <img alt="" src="images/blog/blog_6.jpg">
+                                    <img alt="" src="images/blog/blog_6.png">
                                     <div class="blog-hover">
                                         <a href="#">
                                             <span class="icon">
