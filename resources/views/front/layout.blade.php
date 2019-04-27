@@ -4,32 +4,32 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique)  {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
+    <title>SunuMAP, un blog dédié aux technologies de Système d’Informations Géographiques (SIG) et de la Télédétection {{ isset($post) && $post->seo_title ? $post->seo_title :  __(lcfirst('')) }}  </title>
     <link rel="canonical" href="http://www.sunumap.fr" />
     <meta property="og:locale" content="en_FR" /> 
-    <meta property="og:description" content="INFOCARTO est une entreprise spécialisée dans les solutions géomatiques, INFOCARTO se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. INFOCARTO offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:description" content="SunuMAP un blog spécialisée dans les solutions géomatiques, SunuMAP se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMAP offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta property="og:url" content="http://www.sunumap.fr" />
-    <meta property="og:site_name" content="INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique)" />
-    <meta property="article:section" content="INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique)" /> 
+    <meta property="og:site_name" content="SunuMAP, un blog dédié aux technologies de Système d’Informations Géographiques (SIG) et de la Télédétection." />
+    <meta property="article:section" content="SunuMAP (Bureau d'Etude Solutions et Conseils en Informatique)" /> 
     <meta property="og:image" content="http://www.sunumap.fr/images/site-web-sunumap.png" />
     <meta property="og:image:secure_url" content="http://www.sunumap.fr/images/site-web-sunumap.png" />
     <meta property="og:image:width" content="583" />
     <meta property="og:image:height" content="361" />
-    <script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.sunumap.fr\/","sameAs":[],"@id":"https:\/\/www.sunumap.fr\/#organization","name":"INFOCARTO","logo":""}</script>
+    <script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.sunumap.fr\/","sameAs":[],"@id":"https:\/\/www.sunumap.fr\/#organization","name":"SunuMAP","logo":""}</script>
     <!-- / Yoast SEO plugin. -->
 
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/infocarto.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/SunuMAP.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/logo-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/logo-16x16.png') }}">
     <link rel="manifest" href="{{ asset('manifest/manifest.json') }}">
     <link rel="mask-icon" href="{{ asset('assets/img/safari-pinned-tab.svg') }}" color="#e2001a">
     <meta name="theme-color" content="#ffffff">
     <link rel="shortcut icon" href="{{ asset('assets/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="INFOCARTO">
-    <meta name="application-name" content="INFOCARTO">
+    <meta name="apple-mobile-web-app-title" content="SunuMAP">
+    <meta name="application-name" content="SunuMAP">
     <meta name="msapplication-config" content="/manifest/browserconfig.xml') }}">
 
     <link rel="dns-prefetch" href="//logs4.xiti.com/">
@@ -50,34 +50,34 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com/">   
 
 <!-- Description meta -->
-    <meta name="description" content="INFOCARTO est une entreprise spécialisée dans les solutions géomatiques, INFOCARTO se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. INFOCARTO offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta name="description" content="SunuMAP est un blog spécialisé dans les solutions géomatiques, SunuMAP se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMAP offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
 <!-- Social meta -->
     <!-- Twitter -->
     <meta name="twitter:app:country" content="FR" />
     <meta name="twitter:app:id:googleplay" content="fr.sunumap" />
     <meta name="twitter:app:id:ipad" content="493304166" />
     <meta name="twitter:app:id:iphone" content="493304166" />
-    <meta name="twitter:app:name:googleplay" content="INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique)" />
-    <meta name="twitter:app:name:ipad" content="INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique)" />
-    <meta name="twitter:app:name:iphone" content="INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique)" /> 
+    <meta name="twitter:app:name:googleplay" content="SunuMAP, un blog dédié aux technologies de Système d’Informations Géographiques (SIG) et de la Télédétection.)" />
+    <meta name="twitter:app:name:ipad" content="SunuMAP, un blog dédié aux technologies de Système d’Informations Géographiques (SIG) et de la Télédétection." />
+    <meta name="twitter:app:name:iphone" content="SunuMAP (Bureau d'Etude Solutions et Conseils en Informatique)" /> 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@geocarta" />
     <meta name="twitter:domain" content="https://www.sunumap.fr" />
-    <meta name="twitter:description" content="INFOCARTO est une entreprise spécialisée dans les solutions géomatiques, INFOCARTO se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. INFOCARTO offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta name="twitter:description" content="SunuMAP est un blog spécialisé dans les solutions géomatiques, SunuMAP se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMAP offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta name="twitter:image" content="http://www.sunumap.fr/images/logo.png" />
     <meta name="twitter:site" content="@geocartageocarta" />
-    <meta name="twitter:title" content="INFOCARTO est une entreprise spécialisée dans les solutions géomatiques, INFOCARTO se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie." />
+    <meta name="twitter:title" content="SunuMAP est un blog spécialisé dans les solutions géomatiques, SunuMAP se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie." />
     <!-- Facebook -->
     <meta name="fb:pages" content="https://fr-fr.facebook.com/geocarta/" />
     <meta property="fb:app_id" content="155454821310813A" />
     <meta property="fb:page_id" content="270122530294A" />
 <!-- Apps meta -->
-    <meta property="og:description" content="INFOCARTO est une entreprise spécialisée dans les solutions géomatiques, INFOCARTO se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. INFOCARTO offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:description" content="SunuMAP est un blog spécialisé dans les solutions géomatiques, SunuMAP se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMAP offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     
 
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="sunumap.fr" />
-    <meta property="og:title" content="INFOCARTO est une entreprise spécialisée dans les solutions géomatiques, INFOCARTO se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. INFOCARTO offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
+    <meta property="og:title" content="SunuMAP est un blog spécialisé dans les solutions géomatiques, SunuMAP se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie. Elle propose des solutions à la mise en place de bases de données, au traitement de l’information géographique, à la diffusion de données géographiques sur plusieurs plateformes. SunuMAP offre un package de solutions adaptées à la gestion des collectivités locales : parcellaire, plans topographiques, réseaux urbains, foncier, etc." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.sunumap.fr/">
 <!-- Refresh meta 
@@ -161,12 +161,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 top-info hidden-xs">
-                        <span><i class="fa fa-phone"></i>Phone: (+213) 5 49 83 88 97</span>
-                        <span><i class="fa fa-envelope"></i>Email: contact@info-carto.dz</span>
+                        <span><i class="fa fa-phone"></i>Phone: (+33) 6 50 36 58 11</span>
+                        <span><i class="fa fa-envelope"></i>Email: contact@sunumap.fr</span>
                     </div>
                     <div class="col-sm-4 top-info">
                         <ul>
-                            <li><a href="http://twitter.com/share?text=INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique) &url=http://sunumap.fr/" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://twitter.com/share?text=SunuMAP (Bureau d'Etude Solutions et Conseils en Informatique) &url=http://sunumap.fr/" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="http://www.facebook.com/share.php?u=www.sunumap.fr" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="https://plus.google.com/share?url=www.sunumap.fr " class="my-google"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
@@ -184,7 +184,7 @@
                     <!-- Logo / Mobile Menu -->
                     <div  class="col-lg-3 col-sm-3 ">
                         <div id="logo">
-                            <h1><a href="{{ route('home') }}"><img style="width: 150px" alt="logo" src="{{ URL::asset('images/infocarto.png') }}"/></a></h1>
+                            <h1><a href="{{ route('home') }}"><img style="width: 100% ;height: 50%;" alt="logo" src="{{ URL::asset('images/sunumap.png') }}"/></a></h1>
                         </div>
                     </div>
                     <!-- Navigation
@@ -209,7 +209,7 @@
                     <a href="{{ route('about') }}">@lang('A propos de nous')</a>
                 </li>
 				<li >
-					<a href="#">@lang('Services')</a>
+					<a href="#">@lang('Articles')</a>
 					<ul class="dropdown-menu">
 						@foreach ($categories as $category)
 							<li><a href="{{ route('category', [$category->slug ]) }}">{{ $category->title }}</a></li>
@@ -301,39 +301,7 @@
     @yield('main')
  </body>
 
- <!--Start recent work-->
-       <!--   <section>
-            <div class="container">
-                <div class="row sub_content">
-                    <div class="col-md-12">
-                        <div class="dividerHeading">
-                            <h4><span>Recent Work</span></h4>
-                        </div>
-                        <div id="recent-work-slider" class="owl-carousel"> 
-                            @foreach ($categories as $category) 
-                            <div class="recent-item box">
-                                <figure class="touching ">
-                                    <img src="images/portfolio/portfolio_1.png" alt=""/>
-                                    <div class="option inner">
-                                        <div>
-                                            <h5>{{ $category->title }}</h5>
-                                            <a href="images/portfolio/full/portfolio_1.png" class="fa fa-search mfp-image"></a>
-                                            <a href="{{ route('category', [$category->slug ]) }}" class="fa fa-link"></a>
-                                            <span>Mobile</span>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div> 
-                            @endforeach 
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-      Start recent work-->
-   <!-- footer
-   ================================================== -->
+  
    
 <!--start footer-->
     <footer class="footer">
@@ -344,13 +312,11 @@
                         <h4><span>Qui sommes-nous ?</span></h4>
                     </div>
                     <div class="widget_content">
-                        <p>INFOCARTO est une entreprise spécialisée dans les solutions géomatiques, INFOCARTO se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie.</p>
+                        <p>SunuMAP est uun blog spécialisé dans les solutions géomatiques, SunuMAP se compose d’un groupe d’experts en SIG, Télédétection, Cartographie, Informatique, Webmapping, Topographie.</p>
                         <ul class="contact-details-alt">
-                            <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: 64, Rue IBn Khamis
-
-13000 Tlemcen (Algérie)</p></li>
-                            <li><i class="fa fa-user"></i> <p><strong>Phone</strong>:(+213) 5 49 83 88 97</p></li>
-                            <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: <a href="#">contact@info-carto.dz</a></p></li>
+                            <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: Nantes</p></li>
+                            <li><i class="fa fa-user"></i> <p><strong>Phone</strong>:(+33) 6 89 09 42 61</p></li>
+                            <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: <a href="#">contact@sunumap.fr</a></p></li>
                         </ul>
                     </div>
                 </div>
@@ -396,7 +362,7 @@
         <div class="container">
             <div class="row">
             <div class="col-sm-6">
-                <p class="copyright">&copy; Copyright 2018 INFOCARTO | Produit par  <a href="http://www.sunumap.fr/">INFOCARTO</a></p>
+                <p class="copyright">&copy; Copyright 2018-2019 SunuMAP | Produit par  <a href="http://www.sunumap.fr/">SunuMAP</a></p>
             </div>
 
             <div class="col-sm-6 ">
@@ -404,7 +370,7 @@
 
                     <ul class="footbot_social">
                         <li><a class="fb" href="http://www.facebook.com/share.php?u=http://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="twtr" href="http://twitter.com/share?text=INFOCARTO (Bureau d'Etude Solutions et Conseils en Informatique) &url=https://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="twtr" href="http://twitter.com/share?text=SunuMAP (Bureau d'Etude Solutions et Conseils en Informatique) &url=https://sunumap.fr" data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                         <li><a class="google" href="https://plus.google.com/share?url=www.sunumap.fr" data-placement="top" data-toggle="tooltip" title="Dribbble"><i class="fa fa-google"></i></a></li>
                         <li><a class="skype" href="#." data-placement="top" data-toggle="tooltip" title="Skype"><i class="fa fa-skype"></i></a></li>
                         <li><a class="rss" href="#." data-placement="top" data-toggle="tooltip" title="RSS"><i class="fa fa-rss"></i></a></li>

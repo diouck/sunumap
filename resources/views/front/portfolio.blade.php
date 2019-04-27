@@ -114,7 +114,7 @@
                                             <h5>Formation</h5>
                                             <a href="images/sunumap/info-carto.png" class="fa fa-search mfp-image"></a>
                                             <a href="" class="fa fa-link"></a>
-                                            <span>InfoCarto</span>
+                                            <span>SunuMAP</span>
                                         </div>
                                     </div>
                                 </figure>

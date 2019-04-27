@@ -13,7 +13,7 @@
 
                     <img src="images/fraction-slider/GIS_Softwares.png" width="600" height="400" data-position="30,1100" data-in="left" data-out="right" data-delay="700"/>
 
-                    <p class="slide-1" data-position="50,610" data-in="fade" data-out="fade" data-delay="800">Bureau d’études </p>
+                    <p class="slide-1" data-position="50,610" data-in="fade" data-out="fade" data-delay="800">Blog </p>
                     <p class="slide-1" data-position="100,560" data-in="fade" data-out="fade" data-delay="1200"> en ingénierie géomatique  </p>
                     <p class="slide-1" data-position="150,500" data-in="fade" data-out="fade" data-delay="1600">spécialiste et innovant.</p>
 
@@ -39,7 +39,7 @@
 
                     <p class="slide-heading" data-position="130,370" data-in="top" data-out="top" data-ease-in="easeOutBounce" data-delay="1500">Open-Source et innovation</p>
 
-                    <p class="sub-line" data-position="230,370" data-in="right" data-out="left" data-delay="2500">Développement d'applications métiers sur mesure</p>
+                    <p class="sub-line" data-position="230,370" data-in="right" data-out="left" data-delay="2500">Développement d'applications métiers Open Sources</p>
 
                     <img src="images/fraction-slider/gadgets/laptop.png" width="456" height="272" data-position="115,1180" data-in="bottom" data-out="bottom" data-delay="400">
 
@@ -112,87 +112,138 @@
         </section>
         <!--end info service-->
 
-        <section>
+       
+     
+                <section class="feature_bottom">
             <div class="container">
                 <div class="row sub_content">
- 
-                    <div class="col-md-12 col-lg-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInLeft">
                         <div class="dividerHeading">
-                            <h4><span>NOTRE EXPERTISE: </span></h4>
-                            <p>Par un savoir-faire éprouvé et du pragmatisme, nos interventions de conseil sont destinées à apporter une valeur ajoutée pertinente et concrète, en amont ou en aval des projets de nos clients. Nous intervenons également sur des missions stratégiques à haute valeur ajoutée (PRA, PCA, Audit, Sécurité, Migration, Cloud, ITIL…).</p>
+                            <h4><span>Articles récents</span></h4>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="serviceBox_3">
-                            <div class="service-image">
-                                <img src="images/services/sunumap-production-données.png"/>
-                            </div>
-                            <div class="service-content">
-                                <h3>PRODUCTION DE DONNÉES GÉOGRAPHIQUES</h3>
-                            </div>
-                        </div>
-                        <div class="panel-body">A partir d’outils mobiles (SIG Nomades et GPS) ; et de l’hybridation de données image (aérienne, pléiade, landsat, Modis), nous produisons des séries de données , fiables, à jour et riches  qui décrivent vos territoires de l’échelle régionale, à la grande échelle. Cœur de métier historique,  cette expertise unique est reconnue au plan national, et par de nombreuses régions.</div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="serviceBox_3">
-                            <div class="service-content bg1">
-                                <h3>ANALYSE SPATIALE</h3>
-                            </div>
-                            <div class="service-image">
-                                <img src="images/services/isochrones-multi-modales-nantes-diouck.png"/>
-                            </div>
-                        </div>  
-                       <div class="panel-body">Nous vous proposons des compétences pointues sur les outils d’analyse spatiales, complété d’une expertise métier ciblée, pour établir des portraits de territoire. Les supports cartographiques sont claires, accessibles, et ce à toutes les échelles. Les indicateurs établis sont robustes…et reproductibles !.</div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="serviceBox_3">
-                            <div class="service-image">
-                                <img src="images/services/communication.png"/>
-                            </div>
-                            <div class="service-content bg2">
-                                <h3>DIFFUSION ET COMMUNICATION</h3>
-                            </div>
-                        </div>
-                        <div class="panel-body">La diffusion de données peut être effectuée suivant une grande variété de supports : cartes papier, services de carte web, formats SIG, CD-ROM, serveurs de données. En quelques clics, vous pouvez accèdent à une source d’information précieuse et complète : points d’intérêts (institutions, commerces, loisirs, patrimoine historique et culturel…), températures, risques majeurs (inondations, incendies), information en 2D et en 3D, reliefs, photos aériennes.</div>
-                    </div>
+                        <div class="row">
+                            <div class="col-lg-4  rec_blog">
+                                <div class="blogPic">
+                                    <div class="news-thumb">
+                                        <div class="swipe" id="slider" style="visibility: visible;">
+                                            <ul class="swipe-wrap" style="width: 904px;">
+                                                <li><img alt="" src="images/blog/blog_1.jpg"></li>
+                                                <li><img alt="" src="images/blog/blog_2.jpg"></li>
+                                                <li><img alt="" src="images/blog/blog_3.jpg"></li>
+                                                <li><img alt="" src="images/blog/blog_4.jpg"></li>
+                                            </ul>
+                                            <div class="swipe-navi">
+                                                <div onclick="mySwipe.prev()" class="swipe-left"><i class="fa fa-chevron-left"></i></div>
+                                                <div onclick="mySwipe.next()" class="swipe-right"><i class="fa fa-chevron-right"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                     
-                </div>
-            </div>
-        </section>
+                                </div>
+                                <div class="blogDetail">
+                                    <div class="blogTitle">
+                                        <a href="#">
+                                            <h2>This title in post blogs</h2>
+                                        </a>
+                                        <span>
+                                            <i class="fa fa-calendar"></i>
+                                            30 June, 20:43 PM
+                                        </span>
+                                    </div>
+                                    <div class="blogContent">
+                                        <p>Etu eros omnes theophratus mei, cumit usulan dicit omnium eripuit. Qui tever iluma facete gubergren. </p>
+                                    </div>
+                                    <div class="blogMeta">
+                                        <a href="#">
+                                            <i class="fa fa-user"></i>
+                                            Here Author Name
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-comment"></i>
+                                            1980
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-lg-4  rec_blog">
+                                <div class="blogPic">
+                                    <img alt="" src="images/blog/blog_6.jpg">
+                                    <div class="blog-hover">
+                                        <a href="#">
+                                            <span class="icon">
+                                                <i class="fa fa-link"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="blogDetail">
+                                    <div class="blogTitle">
+                                        <a href="#">
+                                            <h2>This title in post blogs</h2>
+                                        </a>
+                                        <span>
+                                            <i class="fa fa-calendar"></i>
+                                            30 June, 20:43 PM
+                                        </span>
+                                    </div>
+                                    <div class="blogContent">
+                                        <p>Etu eros omnes theophratus mei, cumit usulan dicit omnium eripuit. Qui tever iluma facete gubergren. </p>
+                                    </div>
+                                    <div class="blogMeta">
+                                        <a href="#">
+                                            <i class="fa fa-user"></i>
+                                            Here Author Name
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-comment"></i>
+                                            1980
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col-lg-4  rec_blog">
+                                <div class="blogPic">
+                                    <img alt="" src="images/blog/blog_6.jpg">
+                                    <div class="blog-hover">
+                                        <a href="#">
+                                            <span class="icon">
+                                                <i class="fa fa-link"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="blogDetail">
+                                    <div class="blogTitle">
+                                        <a href="#">
+                                            <h2>This title in post blogs</h2>
+                                        </a>
+                                        <span>
+                                            <i class="fa fa-calendar"></i>
+                                            30 June, 20:43 PM
+                                        </span>
+                                    </div>
+                                    <div class="blogContent">
+                                        <p>Etu eros omnes theophratus mei, cumit usulan dicit omnium eripuit. Qui tever iluma facete gubergren. </p>
+                                    </div>
+                                    <div class="blogMeta">
+                                        <a href="#">
+                                            <i class="fa fa-user"></i>
+                                            Here Author Name
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-comment"></i>
+                                            1980
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
  
-       
-        <section class="feature-block">
-            <div class="container">
-                <div class="row super_sub_content">
-                    <div class="col-lg-6 wow fadeInLeft">
-
-                        <div class="text-center">
-                            <img src="images/services/webmapping.png" alt="" width="99%" />
-                        </div>
-                        <hr>
-                            <i class="fa fa-apple"></i>
-                            <i class="fa fa-windows"></i>
-                            <i class="fa fa-clock-o"></i>
-                            <i class="fa fa-android"></i>
-                            <i class="fa fa-paperclip"></i>
-                            <i class="fa fa-skype"></i>
-                        <hr>
-                    </div>
-
-                    <div class="col-lg-6 fadeInRight">
-                        <h4>Développement d'applications cartographiques Open Source et Responsive Designs</h4>
-                        <p>Les logiciels ne répondent pas à l’ensemble de vos attentes ?
-Vous avez besoin d’une application sur mesure pour piloter votre activité et optimiser vos performances ?
-Vous souhaitez une application cartographique intégrée à votre système d’information ?</p>
-<p>
-Confiez la réalisation de votre projet à des experts de la cartographie : l’entreprise INFOCARTO sait mettre au service de votre projet une équipe de spécialistes en géo-décisionnel : développeurs, consultants, géographes, formateurs.</p>
-                         
-                        <a href="" class="btn btn-default btn-md">En savoir plus</a>&nbsp; 
-                    </div>
                 </div>
             </div>
         </section>
+
  
         <!--
         <section class="clients">
